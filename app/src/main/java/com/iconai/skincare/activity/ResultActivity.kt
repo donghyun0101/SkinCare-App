@@ -709,7 +709,7 @@ class ResultActivity : AppCompatActivity(), View.OnTouchListener {
             finish()
         }
         btnResultRecommend?.setOnClickListener {
-            Toast.makeText(this@ResultActivity, "Developer Easter Egg\n뀨", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this@ResultActivity, "Non Data", Toast.LENGTH_SHORT).show()
         }
         btnResultDialogOpen?.setOnClickListener {
             btnResultDialogDaily[0].performClick()

@@ -90,6 +90,11 @@
     <string name="page_age_55">55+</string>
 
     <string name="page_camera_take">Take Selfie</string>
+    <string name="page_camera_guide_one">Remove\nGlasses</string>
+    <string name="page_camera_guide_two">Pull Back\nHair</string>
+    <string name="page_camera_guide_three">Remove your\nmakeup</string>
+    <string name="page_camera_guide_four">Face directly\nat camera</string>
+    <string name="page_camera_guide_five">Keep neutral\nexpression</string>
 
     <string name="page_imagecheck_result">Check Results</string>
     <string name="page_imagecheck_retake">Retake</string>

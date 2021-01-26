@@ -8,7 +8,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerInParent="true"
-        android:adjustViewBounds="true"/>
+        android:adjustViewBounds="true" />
 
     <HorizontalScrollView
         android:id="@+id/layout_horizontal"
@@ -52,6 +52,7 @@
                     android:layout_height="50dp"
                     android:layout_centerInParent="true"
                     android:gravity="center"
+                    android:padding="5dp"
                     android:src="@drawable/selector_result_darkcircles"
                     android:textColor="@drawable/selector_result_text" />
 
@@ -96,6 +97,7 @@
                     android:layout_height="50dp"
                     android:layout_centerInParent="true"
                     android:gravity="center"
+                    android:padding="5dp"
                     android:src="@drawable/selector_result_eyebags"
                     android:textColor="@drawable/selector_result_text" />
 
@@ -140,6 +142,7 @@
                     android:layout_height="50dp"
                     android:layout_centerInParent="true"
                     android:gravity="center"
+                    android:padding="5dp"
                     android:src="@drawable/selector_result_wrinkles"
                     android:textColor="@drawable/selector_result_text" />
 
@@ -184,6 +187,7 @@
                     android:layout_height="50dp"
                     android:layout_centerInParent="true"
                     android:gravity="center"
+                    android:padding="5dp"
                     android:src="@drawable/selector_result_pigmentation"
                     android:textColor="@drawable/selector_result_text" />
 
@@ -228,6 +232,7 @@
                     android:layout_height="50dp"
                     android:layout_centerInParent="true"
                     android:gravity="center"
+                    android:padding="5dp"
                     android:src="@drawable/selector_result_redness"
                     android:textColor="@drawable/selector_result_text" />
 
@@ -272,6 +277,7 @@
                     android:layout_height="50dp"
                     android:layout_centerInParent="true"
                     android:gravity="center"
+                    android:padding="5dp"
                     android:src="@drawable/selector_result_texture"
                     android:textColor="@drawable/selector_result_text" />
 
@@ -316,6 +322,7 @@
                     android:layout_height="50dp"
                     android:layout_centerInParent="true"
                     android:gravity="center"
+                    android:padding="5dp"
                     android:src="@drawable/selector_result_skinshine"
                     android:textColor="@drawable/selector_result_text" />
 
@@ -359,6 +366,7 @@
                     android:layout_height="50dp"
                     android:layout_centerInParent="true"
                     android:gravity="center"
+                    android:padding="5dp"
                     android:src="@drawable/selector_result_skinshine"
                     android:textColor="@drawable/selector_result_text" />
 
@@ -403,7 +411,8 @@
                     android:layout_height="50dp"
                     android:layout_centerInParent="true"
                     android:gravity="center"
-                    android:src="@drawable/selector_result_skinshine"
+                    android:padding="5dp"
+                    android:src="@drawable/selector_result_skinsagging"
                     android:textColor="@drawable/selector_result_text" />
 
                 <TextView

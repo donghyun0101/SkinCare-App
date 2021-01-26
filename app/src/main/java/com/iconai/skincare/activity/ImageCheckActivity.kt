@@ -44,6 +44,7 @@ class ImageCheckActivity : AppCompatActivity() {
     private var responseCode: String? = null
 
     private var asyncDialog: ProgressDialog? = null
+    private var downloadProgress: Int = 0
 
     private var errorScan: Boolean = false
 
@@ -56,7 +57,7 @@ class ImageCheckActivity : AppCompatActivity() {
 
     fun init() {
         asyncDialog = ProgressDialog(this@ImageCheckActivity)
-        asyncDialog?.setProgressStyle(ProgressDialog.STYLE_SPINNER)
+        asyncDialog?.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL)
         asyncDialog?.setMessage("Please wait...")
         asyncDialog?.setCancelable(false)
 
@@ -76,6 +77,7 @@ class ImageCheckActivity : AppCompatActivity() {
         btnImageCheckResult?.setOnClickListener {
             CoroutineScope(Main).launch {
                 asyncDialog?.show()
+                asyncDialog?.progress = downloadProgress
 
                 withContext(IO) {
                     try {
@@ -83,7 +85,6 @@ class ImageCheckActivity : AppCompatActivity() {
                             .writeTimeout(30, TimeUnit.SECONDS)
                             .readTimeout(30, TimeUnit.SECONDS)
                             .build()
-
 
                         body = MultipartBody.Builder().setType(MultipartBody.FORM)
                             .addFormDataPart(
@@ -97,20 +98,29 @@ class ImageCheckActivity : AppCompatActivity() {
 
                         var requestBody = CountingRequestBody(body!!, listener)
 
+                        downloadProgress = 10
+                        asyncDialog?.progress = downloadProgress
+                        asyncDialog?.setMessage("Server Connected...")
+
                         request = Request.Builder()
                             //.url("https://partner-test.revieve.com/api/3/analyzeImage/?accept=application/json&Content-Type=multipart/form-data")
                             .url("https://partner-test.revieve.com/api/analyzeImage/3/?skintone=0&gender=${ApiData.gender.toString()}&components=masks,wrinkles,wrinkles_visualization,eyes,skin_sagging,skin_sagging_visualization,redness,redness_visualization,hyperpigmentation,hyperpigmentation_visualization,melasma,melasma_visualization,freckles,freckles_visualization,dark_spots,dark_spots_visualization,texture,texture_visualization,smoothness,radiance,dull_skin,shine,shine_visualization,uneven_skin_tone,uneven_skin_tone_visualization,pore_dilation")
                             .post(requestBody)
                             .build()
+                        downloadProgress = 15
+                        asyncDialog?.progress = downloadProgress
 
                         response = client?.newCall(request!!)?.execute()
+                        downloadProgress = 91
+                        asyncDialog?.progress = downloadProgress
+
                         responseCode = response?.code.toString()
+                        downloadProgress = 99
+                        asyncDialog?.progress = downloadProgress
 
                         ApiData.faceData = JSONObject(response?.body!!.string())
-
-                        Log.e("response", "Response Code : $responseCode")
-                        Log.e("response", "Response Data : ${ApiData.faceData}")
-
+                        downloadProgress = 100
+                        asyncDialog?.progress = downloadProgress
                         errorScan = true
                     } catch (e: Exception) {
                         errorScan = false
@@ -163,17 +173,15 @@ class ImageCheckActivity : AppCompatActivity() {
 
     private val listener: CountingRequestBody.Listener = object : CountingRequestBody.Listener {
         override fun onRequestProgress(bytesWritten: Long, contentLength: Long) {
-
-            var i = contentLength / 10
             CoroutineScope(Main).launch {
-                if (bytesWritten >= 0)
-                    asyncDialog?.setMessage("Server Connected...")
-                if (bytesWritten >= (i * 2))
+                downloadProgress = ((bytesWritten * 75 / contentLength)+15).toInt()
+                asyncDialog?.progress = downloadProgress
+                if (downloadProgress >= 20)
                     asyncDialog?.setMessage("Uploading a photo taken with user data and selfies...")
-                if (bytesWritten >= contentLength)
+                if(downloadProgress >= 90)
                     asyncDialog?.setMessage("Downloading Skin Analysis and Results...")
             }
-            Log.e("Progress", "progress bytesWritten=$bytesWritten, contentLength=$contentLength")
+            Log.e("Progress", "progress bytesWritten=$downloadProgress")
         }
     }
 }
