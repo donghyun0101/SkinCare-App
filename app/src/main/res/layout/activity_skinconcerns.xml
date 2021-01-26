@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#505050">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:alpha="0.4"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background_app" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="32dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/jost600semi"
+                    android:text="@string/page_skinconcerns_doyou"
+                    android:textColor="#ffffff"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/jost300light"
+                    android:text="@string/page_skinconcerns_haveanypersonal"
+                    android:textColor="#ffffff"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/jost700bold"
+                    android:text="@string/page_skinconcerns_skinconcerns"
+                    android:textColor="#ffffff"
+                    android:textSize="40sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/jost500medium"
+                    android:text="@string/page_skinconcerns_selectallthatapply"
+                    android:textColor="#ffffff"
+                    android:textSize="17sp" />
+
+            </LinearLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="25dp"
+                android:scrollbarDefaultDelayBeforeFade="50000000"
+                android:scrollbarSize="3dp"
+                android:scrollbarStyle="outsideInset"
+                android:scrollbarThumbVertical="@color/lt_gray"
+                android:scrollbarTrackVertical="@color/dk_gray">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/btn_skinconcerns_findlines"
+                            style="?android:attr/borderlessButtonStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="60dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/selector_item_btn"
+                            android:fontFamily="@font/jost500medium"
+                            android:text="@string/page_skinconcerns_wrinkles_and_find_lines"
+                            android:textColor="@drawable/selector_item_btn_text"
+                            android:textSize="20sp" />
+
+
+                        <Button
+                            android:id="@+id/btn_skinconcerns_eyebags"
+                            style="?android:attr/borderlessButtonStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/selector_item_btn"
+                            android:fontFamily="@font/jost500medium"
+                            android:text="@string/text_eyebags"
+                            android:textColor="@drawable/selector_item_btn_text"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/btn_skinconcerns_redness"
+                            style="?android:attr/borderlessButtonStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="60dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/selector_item_btn"
+                            android:fontFamily="@font/jost500medium"
+                            android:text="@string/text_redness"
+                            android:textColor="@drawable/selector_item_btn_text"
+                            android:textSize="20sp" />
+
+                        <Button
+                            android:id="@+id/btn_skinconcerns_dullskin"
+                            style="?android:attr/borderlessButtonStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/selector_item_btn"
+                            android:fontFamily="@font/jost500medium"
+                            android:text="@string/page_skinconcerns_dull_skin"
+                            android:textColor="@drawable/selector_item_btn_text"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/btn_skinconcerns_aging"
+                            style="?android:attr/borderlessButtonStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="60dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/selector_item_btn"
+                            android:fontFamily="@font/jost500medium"
+                            android:text="@string/page_skinconcerns_aging"
+                            android:textColor="@drawable/selector_item_btn_text"
+                            android:textSize="20sp" />
+
+                        <Button
+                            android:id="@+id/btn_skinconcerns_darkcircles"
+                            style="?android:attr/borderlessButtonStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/selector_item_btn"
+                            android:fontFamily="@font/jost500medium"
+                            android:text="@string/text_darkcircles"
+                            android:textColor="@drawable/selector_item_btn_text"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/btn_skinconcerns_visiblepores"
+                            style="?android:attr/borderlessButtonStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="60dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/selector_item_btn"
+                            android:fontFamily="@font/jost500medium"
+                            android:text="@string/page_skinconcerns_visible_pores"
+                            android:textColor="@drawable/selector_item_btn_text"
+                            android:textSize="20sp" />
+
+                        <Button
+                            android:id="@+id/btn_skinconcerns_saggingskin"
+                            style="?android:attr/borderlessButtonStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/selector_item_btn"
+                            android:fontFamily="@font/jost500medium"
+                            android:text="@string/page_skinconcerns_sagging_skin"
+                            android:textColor="@drawable/selector_item_btn_text"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/btn_skinconcerns_hyperpigmentation"
+                            style="?android:attr/borderlessButtonStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="60dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/selector_item_btn"
+                            android:fontFamily="@font/jost500medium"
+                            android:text="@string/page_skinconcerns_hyperpigmentation"
+                            android:textColor="@drawable/selector_item_btn_text"
+                            android:textSize="20sp" />
+
+                        <Button
+                            android:id="@+id/btn_skinconcerns_acne"
+                            style="?android:attr/borderlessButtonStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/selector_item_btn"
+                            android:fontFamily="@font/jost500medium"
+                            android:text="@string/page_skinconcerns_acne"
+                            android:textColor="@drawable/selector_item_btn_text"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </ScrollView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_skinconcerns_next"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_dkgray_btn"
+                    android:fontFamily="@font/jost500medium"
+                    android:text="@string/page_skinconcerns_next"
+                    android:textColor="@drawable/selector_dkgray_btn_text"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

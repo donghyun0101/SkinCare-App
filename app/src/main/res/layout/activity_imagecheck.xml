@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_imgcheck"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img_imgcheck_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:src="@drawable/background_selfie_guide" />
+
+    <Button
+        android:id="@+id/btn_imagecheck_retake"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/selector_black_btn"
+        android:text="@string/page_imagecheck_retake"
+        android:textColor="@drawable/selector_black_btn_text"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_imagecheck_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/selector_black_btn"
+        android:text="@string/page_imagecheck_result"
+        android:textColor="@drawable/selector_black_btn_text"
+        android:textSize="20sp" />
+
+</RelativeLayout>

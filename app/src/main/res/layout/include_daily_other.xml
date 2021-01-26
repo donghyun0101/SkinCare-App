@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_dialog_daily_other_darkcircles"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/jost500medium"
+            android:padding="10dp"
+            android:text="@string/text_darkcircles"
+            android:textSize="10sp" />
+<!--        android:drawableTop="@drawable/btn_selector_dialog_daily_darkcircles"-->
+
+        <Button
+            android:id="@+id/btn_dialog_daily_other_eyebags"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/jost500medium"
+            android:padding="10dp"
+            android:text="@string/text_eyebags"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btn_dialog_daily_other_wrinkles"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/jost500medium"
+            android:padding="10dp"
+            android:text="@string/text_wrinkles"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btn_dialog_daily_other_pigmentation"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/jost500medium"
+            android:padding="10dp"
+            android:text="@string/text_pigmentation"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/lt_gray">
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/chart_other"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_margin="32dp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btn_dialog_daily_other_redness"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/jost500medium"
+            android:padding="10dp"
+            android:text="@string/text_redness"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btn_dialog_daily_other_texture"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/jost500medium"
+            android:padding="10dp"
+            android:text="@string/text_texture"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btn_dialog_daily_other_skinshine"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/jost500medium"
+            android:padding="10dp"
+            android:text="@string/text_skinshine"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btn_dialog_daily_other_unevenskintone"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/jost500medium"
+            android:padding="10dp"
+            android:text="@string/text_unevenskintone"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btn_dialog_daily_other_skinsagging"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/jost500medium"
+            android:padding="10dp"
+            android:text="@string/text_skinsagging"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

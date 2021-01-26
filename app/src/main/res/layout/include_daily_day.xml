@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_dialog_daily_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jost600semi"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="13sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btn_dialog_result_darkcircles"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="?android:attr/selectableItemBackground"
+            android:fontFamily="@font/jost500medium"
+            android:text="@string/text_darkcircles"
+            android:textSize="10sp" />
+        <!--        android:drawableTop="@drawable/shape_darkcircles"-->
+
+        <Button
+            android:id="@+id/btn_dialog_result_skinsagging"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="34dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:fontFamily="@font/jost500medium"
+            android:text="@string/text_skinsagging"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btn_dialog_result_unevenskintone"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="125dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:fontFamily="@font/jost500medium"
+            android:text="@string/text_unevenskintone"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btn_dialog_result_skinshine"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="230dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:fontFamily="@font/jost500medium"
+            android:text="@string/text_skinshine"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btn_dialog_result_texture"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="295dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:fontFamily="@font/jost500medium"
+            android:text="@string/text_texture"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btn_dialog_result_redness"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="295dp"
+            android:layout_marginRight="100dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:fontFamily="@font/jost500medium"
+            android:text="@string/text_redness"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btn_dialog_result_pigmentation"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="230dp"
+            android:layout_marginRight="20dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:fontFamily="@font/jost500medium"
+            android:text="@string/text_pigmentation"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btn_dialog_result_wrinkles"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="125dp"
+            android:layout_marginRight="5dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:fontFamily="@font/jost500medium"
+            android:text="@string/text_wrinkles"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btn_dialog_result_eyebags"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="33dp"
+            android:layout_marginRight="44dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:fontFamily="@font/jost500medium"
+            android:text="@string/text_eyebags"
+            android:textSize="10sp" />
+
+        <com.github.mikephil.charting.charts.RadarChart
+            android:id="@+id/chart_today"
+            android:layout_width="230dp"
+            android:layout_height="230dp"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+</LinearLayout>
