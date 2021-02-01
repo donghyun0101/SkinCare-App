@@ -12,6 +12,16 @@
         android:scaleType="centerCrop"
         android:src="@drawable/background_app" />
 
+    <ImageButton
+        android:id="@+id/imgbtn_datacheck_back"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:padding="16dp"
+        android:src="@drawable/icon_back_white" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -73,73 +83,76 @@
                 android:background="@drawable/shape_datacheck_layout"
                 android:orientation="vertical">
 
-                <ScrollView
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="300dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
                     android:padding="16dp">
 
                     <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
                         android:gravity="center"
                         android:orientation="vertical">
 
-                        <LinearLayout
+                        <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginBottom="5dp"
+                            android:fontFamily="@font/jost300light"
                             android:gravity="center"
-                            android:orientation="vertical">
+                            android:text="@string/page_datacheck_skintype"
+                            android:textSize="20sp" />
 
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:fontFamily="@font/jost300light"
-                                android:gravity="center"
-                                android:text="@string/page_datacheck_skintype"
-                                android:textSize="20sp" />
+                        <TextView
+                            android:id="@+id/tv_datacheck_skintype"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/jost500medium"
+                            android:gravity="center"
+                            android:textSize="20sp" />
 
-                            <TextView
-                                android:id="@+id/tv_datacheck_skintype"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:fontFamily="@font/jost500medium"
-                                android:gravity="center"
-                                android:textSize="20sp" />
+                    </LinearLayout>
 
-                        </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/jost300light"
+                            android:gravity="center"
+                            android:text="@string/page_datacheck_skinconcerns"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/tv_datacheck_skinconcerns"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/jost500medium"
+                            android:gravity="center"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
 
                         <LinearLayout
-                            android:layout_width="wrap_content"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
                             android:layout_marginBottom="5dp"
-                            android:gravity="center"
-                            android:orientation="vertical">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:fontFamily="@font/jost300light"
-                                android:gravity="center"
-                                android:text="@string/page_datacheck_skinconcerns"
-                                android:textSize="20sp" />
-
-                            <TextView
-                                android:id="@+id/tv_datacheck_skinconcerns"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:fontFamily="@font/jost500medium"
-                                android:gravity="center"
-                                android:textSize="20sp" />
-
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="5dp"
-                            android:layout_marginBottom="5dp"
+                            android:layout_weight="1"
                             android:gravity="center"
                             android:orientation="vertical">
 
@@ -162,10 +175,11 @@
                         </LinearLayout>
 
                         <LinearLayout
-                            android:layout_width="wrap_content"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
                             android:layout_marginBottom="5dp"
+                            android:layout_weight="1"
                             android:gravity="center"
                             android:orientation="vertical">
 
@@ -187,7 +201,8 @@
 
                         </LinearLayout>
                     </LinearLayout>
-                </ScrollView>
+
+                </LinearLayout>
 
             </LinearLayout>
 

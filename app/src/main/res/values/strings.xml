@@ -17,46 +17,36 @@
     <string name="page_findskin_let">let&#160;</string>
     <string name="page_findskin_ushelpidentify">us help identify</string>
     <string name="page_findskin_youskintype">Your Skin Type</string>
-    <string name="page_findskin_index1">(1/5)</string>
-    <string name="page_findskin_index2">(2/5)</string>
-    <string name="page_findskin_index3">(3/5)</string>
-    <string name="page_findskin_index4">(4/5)</string>
-    <string name="page_findskin_index5">(5/5)</string>
 
-    <string name="page_findskin_one">Select the option that best describes your skin.</string>
-    <string name="page_findskin_one_select1">My skin usually feels dry and tight.</string>
-    <string name="page_findskin_one_select2">My skin usually feels greasy\nand can often look shiny.</string>
-    <string name="page_findskin_one_select3">My skin usually feels soft and comfortable.</string>
-    <string name="page_findskin_one_select4">My skin can often get red and irritate easily.</string>
-    <string name="page_findskin_one_select5">My skin feels greasy in the T-zone area\nbut the rest feels fairly dry/normal.</string>
+    <string name="page_findskin_question0">Pore size is not large.</string>
+    <string name="page_findskin_question1">Pore size is too small.</string>
+    <string name="page_findskin_question2">Pore size is too large.</string>
+    <string name="page_findskin_question3">Pore size is normal.</string>
+    <string name="page_findskin_question4">Pore size is partially different.</string>
+    <string name="page_findskin_question5">5</string>
+    <string name="page_findskin_question6">6</string>
+    <string name="page_findskin_question7">7</string>
+    <string name="page_findskin_question8">8</string>
+    <string name="page_findskin_question9">9</string>
+    <string name="page_findskin_question10">10</string>
+    <string name="page_findskin_question11">11</string>
+    <string name="page_findskin_question12">12</string>
+    <string name="page_findskin_question13">13</string>
+    <string name="page_findskin_question14">14</string>
+    <string name="page_findskin_question15">15</string>
+    <string name="page_findskin_question16">16</string>
+    <string name="page_findskin_question17">17</string>
+    <string name="page_findskin_question18">18</string>
+    <string name="page_findskin_question19">19</string>
+    <string name="page_findskin_question20">20</string>
+    <string name="page_findskin_question21">21</string>
+    <string name="page_findskin_question22">22</string>
+    <string name="page_findskin_question23">23</string>
+    <string name="page_findskin_question24">24</string>
 
-    <string name="page_findskin_two">How visible are your pores?</string>
-    <string name="page_findskin_two_select1">Small pores that are not that visible.</string>
-    <string name="page_findskin_two_select2">Large pores that are very visible.</string>
-    <string name="page_findskin_two_select3">I don\'t see any pores</string>
-    <string name="page_findskin_two_select4">I\'ve never noticed my pore size\nbut I have surface blood vessels.</string>
-    <string name="page_findskin_two_select5">The pores are larger on\nmy forehead, nose and jaw,\nbut normal in the rest of the face.</string>
-
-    <string name="page_findskin_three">How does your skin feel in the afternoon?</string>
-    <string name="page_findskin_three_select1">My skin usually feels dry and tight.</string>
-    <string name="page_findskin_three_select2">My skin usually feels greasy\nand can often look shiny.</string>
-    <string name="page_findskin_three_select3">My skin feels normal, no major problems.</string>
-    <string name="page_findskin_three_select4">My skin can often get quite red and irritated.</string>
-    <string name="page_findskin_three_select5">My skin feels greasy in the T-zone area\nbut the rest feels fairly dry/normal.</string>
-
-    <string name="page_findskin_four">How often do you get spots or blemishes?</string>
-    <string name="page_findskin_four_select1">Never.</string>
-    <string name="page_findskin_four_select2">Every day or weekly.</string>
-    <string name="page_findskin_four_select3">About once a month.</string>
-    <string name="page_findskin_four_select4">Very rarely.</string>
-    <string name="page_findskin_four_select5">Every now and then,\nbut most often on the forehead,\nnose or chin area.</string>
-
-    <string name="page_findskin_five">How does your skin feel when you first wake up\nin the morning?</string>
-    <string name="page_findskin_five_select1">My skin usually feels dry and tight.</string>
-    <string name="page_findskin_five_select2">Greasy and pores are visible around the face.</string>
-    <string name="page_findskin_five_select3">Soft and good.</string>
-    <string name="page_findskin_five_select4">Quite thin, skin feels translucent.</string>
-    <string name="page_findskin_five_select5">T-zone feels normal but cheek areas are dry and tight.</string>
+    <string name="page_findskin_select_yes">Yes</string>
+    <string name="page_findskin_select_idontknow">I don\'t know</string>
+    <string name="page_findskin_select_no">No</string>
 
     <string name="page_skinconcerns_doyou">do you&#160;</string>
     <string name="page_skinconcerns_haveanypersonal">have any personal</string>

@@ -47,7 +47,7 @@
                     android:layout_height="match_parent"
                     android:adjustViewBounds="true"
                     android:background="?android:attr/selectableItemBackground"
-                    android:src="@drawable/icon_close" />
+                    android:src="@drawable/icon_close_black" />
 
             </LinearLayout>
 

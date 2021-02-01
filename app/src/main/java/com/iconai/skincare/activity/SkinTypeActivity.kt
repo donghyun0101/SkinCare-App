@@ -3,6 +3,7 @@ package com.iconai.skincare.activity
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageButton
 import android.widget.RelativeLayout
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
@@ -12,9 +13,9 @@ import com.iconai.skincare.R
 import com.iconai.skincare.util.ApiData
 
 class SkinTypeActivity : AppCompatActivity() {
+    private var imgBtnSkinTypeBack: ImageButton? = null
     private var btnSkinType: ArrayList<Button> = arrayListOf()
     private var selectSkinTypeStr: ArrayList<String> = arrayListOf()
-    private var selectSkinTypeInt: Int = 0
     private var snackBar: Snackbar? = null
     private var snackBarLayoutParams: RelativeLayout.LayoutParams? = null
 
@@ -41,6 +42,7 @@ class SkinTypeActivity : AppCompatActivity() {
     }
 
     fun init() {
+        imgBtnSkinTypeBack = findViewById(R.id.imgbtn_skintype_back)
         btnSkinType = arrayListOf(
             findViewById(R.id.btn_skintype_normal),
             findViewById(R.id.btn_skintype_dry),
@@ -58,9 +60,14 @@ class SkinTypeActivity : AppCompatActivity() {
             getString(R.string.page_skintype_combination)
         )
 
+        imgBtnSkinTypeBack?.setOnClickListener {
+            startActivity(Intent(this, MainActivity::class.java))
+            finish()
+        }
+
         for (i in 0 until btnSkinType.size) {
             btnSkinType[i].setOnClickListener {
-                if(snackBar != null)
+                if (snackBar != null)
                     snackBar!!.dismiss()
                 when (btnSkinType[i]) {
                     btnSkinType[5] -> {

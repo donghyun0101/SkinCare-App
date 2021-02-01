@@ -4,12 +4,14 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageButton
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.iconai.skincare.R
 import com.iconai.skincare.util.ApiData
 
 class DataCheckActivity : AppCompatActivity() {
+    private var imgBtnDataCheckBack: ImageButton? = null
     private var tvDataCheckSkinType: TextView? = null
     private var tvDataCheckSkinConcerns: TextView? = null
     private var tvDataCheckGender: TextView? = null
@@ -26,6 +28,7 @@ class DataCheckActivity : AppCompatActivity() {
 
     @SuppressLint("SetTextI18n")
     fun init() {
+        imgBtnDataCheckBack = findViewById(R.id.imgbtn_datacheck_back)
         tvDataCheckSkinType = findViewById(R.id.tv_datacheck_skintype)
         tvDataCheckSkinConcerns = findViewById(R.id.tv_datacheck_skinconcerns)
         tvDataCheckGender = findViewById(R.id.tv_datacheck_gender)
@@ -33,6 +36,12 @@ class DataCheckActivity : AppCompatActivity() {
 
         btnDataCheckOk = findViewById(R.id.btn_datacheck_ok)
         btnDataCheckNo = findViewById(R.id.btn_datacheck_no)
+
+        imgBtnDataCheckBack?.setOnClickListener {
+            ApiData.age = null
+            startActivity(Intent(this, AgeActivity::class.java))
+            finish()
+        }
 
         tvDataCheckSkinType?.text = ApiData.skinType.toString()
         tvDataCheckSkinConcerns?.text =
