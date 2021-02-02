@@ -36,45 +36,15 @@
             android:gravity="center"
             android:orientation="vertical">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/jost600semi"
-                    android:text="@string/page_skintype_what"
-                    android:textColor="#ffffff"
-                    android:textSize="30sp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/jost300light"
-                    android:text="@string/page_skintype_isyour"
-                    android:textColor="#ffffff"
-                    android:textSize="30sp" />
-            </LinearLayout>
-
-            <LinearLayout
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="25dp"
+                android:fontFamily="@font/jost700bold"
                 android:gravity="center"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/jost700bold"
-                    android:text="@string/page_skintype_skintype"
-                    android:textColor="#ffffff"
-                    android:textSize="40sp" />
-
-            </LinearLayout>
+                android:text="@string/page_skintype_question"
+                android:textColor="#ffffff"
+                android:textSize="40sp" />
 
             <LinearLayout
                 android:layout_width="match_parent"

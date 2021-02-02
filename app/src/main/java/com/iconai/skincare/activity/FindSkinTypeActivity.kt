@@ -170,7 +170,6 @@ class FindSkinTypeActivity : AppCompatActivity() {
     }
 
     private fun finishIntent(selectSkinTypeInt: Int) {
-        Log.e("hi", "hi")
         val intent: Intent = intent
         intent.putExtra("selectSkinTypeInt", selectSkinTypeInt)
         setResult(1, intent)

@@ -1,2768 +1,585 @@
 {
-  "description": "hyperpigmentation",
-  "local_warnings": [],
-  "mask_shapes": null,
-  "measurement_locations": [
-    {
-      "AOI_radius_o": 76,
-      "AOI_x_o": 208,
-      "AOI_y_o": 701,
-      "description": "left cheek",
-      "mask_shapes": {
-        "coordinates": "original",
-        "mask": null,
-        "shapes": [
-          {
-            "color": 1,
-            "params": [
-              [
-                107,
-                494
-              ],
-              [
-                107,
-                581
-              ],
-              [
-                118,
-                669
-              ],
-              [
-                135,
-                753
-              ],
-              [
-                163,
-                836
-              ],
-              [
-                206,
-                911
-              ],
-              [
-                257,
-                973
-              ],
-              [
-                320,
-                1019
-              ],
-              [
-                398,
-                1031
-              ],
-              [
-                472,
-                1016
-              ],
-              [
-                528,
-                962
-              ],
-              [
-                572,
-                895
-              ],
-              [
-                608,
-                824
-              ],
-              [
-                639,
-                750
-              ],
-              [
-                666,
-                677
-              ],
-              [
-                687,
-                600
-              ],
-              [
-                692,
-                522
-              ],
-              [
-                692,
-                506
-              ]
-            ],
-            "type": "polygon"
-          },
-          {
-            "color": 1,
-            "params": [
-              399,
-              499,
-              292,
-              321,
-              1,
-              180,
-              360
-            ],
-            "type": "ellipse"
-          },
-          {
-            "color": 0,
-            "params": [
-              252,
-              526,
-              74,
-              37,
-              1,
-              0,
-              360
-            ],
-            "type": "ellipse"
-          },
-          {
-            "color": 0,
-            "params": [
-              559,
-              533,
-              68,
-              37,
-              1,
-              0,
-              360
-            ],
-            "type": "ellipse"
-          },
-          {
-            "color": 0,
-            "params": [
-              [
-                139,
-                438
-              ],
-              [
-                176,
-                385
-              ],
-              [
-                240,
-                367
-              ],
-              [
-                305,
-                379
-              ],
-              [
-                364,
-                405
-              ],
-              [
-                363,
-                434
-              ],
-              [
-                304,
-                406
-              ],
-              [
-                240,
-                392
-              ],
-              [
-                176,
-                407
-              ],
-              [
-                139,
-                458
-              ]
-            ],
-            "type": "unrestricted_polygon"
-          },
-          {
-            "color": 0,
-            "params": [
-              [
-                475,
-                407
-              ],
-              [
-                532,
-                386
-              ],
-              [
-                590,
-                376
-              ],
-              [
-                645,
-                393
-              ],
-              [
-                673,
-                446
-              ],
-              [
-                673,
-                466
-              ],
-              [
-                645,
-                413
-              ],
-              [
-                590,
-                396
-              ],
-              [
-                532,
-                406
-              ],
-              [
-                475,
-                427
-              ]
-            ],
-            "type": "unrestricted_polygon"
-          },
-          {
-            "color": 0,
-            "params": [
-              [
-                289,
-                849
-              ],
-              [
-                329,
-                828
-              ],
-              [
-                369,
-                819
-              ],
-              [
-                405,
-                832
-              ],
-              [
-                441,
-                821
-              ],
-              [
-                479,
-                831
-              ],
-              [
-                515,
-                854
-              ],
-              [
-                478,
-                882
-              ],
-              [
-                442,
-                900
-              ],
-              [
-                404,
-                904
-              ],
-              [
-                365,
-                899
-              ],
-              [
-                328,
-                881
-              ]
-            ],
-            "type": "unrestricted_polygon"
-          },
-          {
-            "color": 0,
-            "params": [
-              [
-                74,
-                -825
-              ],
-              [
-                777,
-                -811
-              ],
-              [
-                749,
-                608
-              ],
-              [
-                46,
-                594
-              ]
-            ],
-            "type": "polygon"
-          },
-          {
-            "color": 0,
-            "params": [
-              [
-                468,
-                519
-              ],
-              [
-                368,
-                517
-              ],
-              [
-                283,
-                722
-              ],
-              [
-                333,
-                743
-              ],
-              [
-                407,
-                766
-              ],
-              [
-                483,
-                745
-              ],
-              [
-                533,
-                726
-              ],
-              [
-                468,
-                519
-              ]
-            ],
-            "type": "polygon"
-          },
-          {
-            "color": 0,
-            "params": [
-              [
-                145,
-                130
-              ],
-              [
-                126,
-                1084
-              ],
-              [
-                36,
-                1082
-              ],
-              [
-                55,
-                129
-              ]
-            ],
-            "type": "polygon"
-          },
-          {
-            "color": 0,
-            "params": [
-              [
-                679,
-                141
-              ],
-              [
-                758,
-                143
-              ],
-              [
-                739,
-                1096
-              ],
-              [
-                660,
-                1095
-              ]
-            ],
-            "type": "polygon"
-          },
-          {
-            "color": 0,
-            "params": [
-              [
-                424,
-                136
-              ],
-              [
-                758,
-                143
-              ],
-              [
-                739,
-                1096
-              ],
-              [
-                405,
-                1090
-              ]
-            ],
-            "type": "polygon"
-          },
-          {
-            "color": 0,
-            "params": [
-              [
-                36,
-                1082
-              ],
-              [
-                38,
-                972
-              ],
-              [
-                297,
-                724
-              ],
-              [
-                522,
-                728
-              ],
-              [
-                742,
-                957
-              ],
-              [
-                739,
-                1096
-              ]
-            ],
-            "type": "unrestricted_polygon"
+  "result": {
+    "products": {
+      "standard": {
+        "Cleanser": {
+          "name": "Ain't Misbehavin' Medicated AHA/BHA Acne Cleanser",
+          "category": "Cleanser",
+          "manufacturer": "Dermadoctor",
+          "description": "Ain't Misbehavin' Medicated AHA/BHA Acne Cleanser - Ain't Misbehavin' Medicated AHA/BHA acne cleanser is formulated to clear blemishes and work synergistically with your daily acne control regimen. This soothing, non-foaming formula is ideal for anyone looking to reduce excess oiliness, mattify shine or simply refresh their complexion. This soap free, oil free, pH balanced, buffered glycolic acid cleanser is enriched and enhanced by:High level of salicylic acid (BHA)Advanced polymer technologyWitch hazelAllantoinSkin stops acting out and blemishes are rapidly brought under control. Continued use provides positive reinforcement - keeping skin clear, radiant and free of unsightly blemishes. Appropriate for most skin types. Dermatologist tested &amp; approved, allergy tested, non irritating, non-drying, non comedogenic, pH balanced, soap free, oil free, fragrance free, dye free, no animal testing. Formulated &amp; filled in the U.S.A. - Ain't Misbehavin' Medicated AHA/BHA Acne Cleanser",
+          "price": 32,
+          "url": "http://www.revieve.com",
+          "score": 0.775,
+          "filter_match": [
+            "dull_skin_cv",
+            "hyperpigmentation_cv",
+            "uneven_skintone_cv",
+            "dull_tired_ui",
+            "skin_shine_cv",
+            "smoothness_cv",
+            "normal_skin_ui"
+          ],
+          "price_group": "standard",
+          "id": "CopyOf_2161588",
+          "parent_id": "CopyOf_xlsImpprod700094",
+          "image": "https://d38knilzwtuys1.cloudfront.net/revieve-plugin/productImages/kXzoR28fCe.jpeg",
+          "extra_attrs": 18,
+          "custom_data": {
+            "rating": "4.2",
+            "promotion": "3 for 2"
           }
-        ]
-      },
-      "measures": [
-        {
-          "description": "area",
-          "value": 0.0,
-          "value_raw": 0.0
         },
-        {
-          "description": "spot",
-          "value": 0.002941752721456081,
-          "value_raw": 0.0008149996316311259
-        }
-      ],
-      "value": 0.0003824501586363722,
-      "value_raw": 0.0008149996316311259,
-      "visualization_data": [
-        {
-          "intensity": [
-            0.04729534841408167
+        "Eye Cream": {
+          "name": "DD Eye Dermatologically Defining Eye Radiance Cream SPF 30",
+          "category": "Eye Cream",
+          "manufacturer": "Dermadoctor",
+          "description": "DD Eye Dermatologically Defining Eye Radiance Cream SPF 30 - Highlight eyes without shimmer or glitter. DERMAdoctor DD Eye Dermatologically Defining Eye Radiance Cream SPF 30 is a multi-tasking radiance booster that instantly brightens, smoothes, corrects &amp; perfects while letting your own skin come through for a beautiful, natural glow. It brightens the complexion to fight dullness and fatigue and protects with a mineral-based SPF 30. The light-infused pigments in DD Eye brighten dark circles while peptides, ceramides and antioxidants help improve the appearance of lines and wrinkles. Perfects make-up and helps create a lifted look without risk of caking or creasing. Gentle enough for sensitive eyes and contact lens wearers.Dermatologist &amp; Ophthalmologist testedApproved allergy testedNon-irritating to the skinNon-dryingNon-comedogenicSynthetic fragrance-freeSynthetic dye-freeCruelty-freeGluten-freeNo animal testing - DD Eye Dermatologically Defining Eye Radiance Cream SPF 30",
+          "price": 28,
+          "url": "http://www.revieve.com",
+          "score": 0.773,
+          "filter_match": [
+            "dull_skin_cv",
+            "hyperpigmentation_cv",
+            "uneven_skintone_cv",
+            "dark_circle_cv",
+            "dull_tired_ui",
+            "smoothness_cv",
+            "normal_skin_ui"
           ],
-          "length": 1,
-          "length_weighted_intensity": 0.005911918551760209,
-          "mean_intensity": 0.04729534841408167,
-          "median_intensity": 0.04729534841408167,
-          "x": [
-            233
-          ],
-          "y": [
-            623
-          ]
-        },
-        {
-          "intensity": [
-            0.45093173862915137
-          ],
-          "length": 1,
-          "length_weighted_intensity": 0.05636646732864392,
-          "mean_intensity": 0.45093173862915137,
-          "median_intensity": 0.45093173862915137,
-          "x": [
-            173
-          ],
-          "y": [
-            623
-          ]
-        },
-        {
-          "intensity": [
-            1.1495183863817147
-          ],
-          "length": 1,
-          "length_weighted_intensity": 0.14368979829771433,
-          "mean_intensity": 1.1495183863817147,
-          "median_intensity": 1.1495183863817147,
-          "x": [
-            197
-          ],
-          "y": [
-            721
-          ]
-        }
-      ]
-    },
-    {
-      "AOI_radius_o": 0,
-      "AOI_x_o": 55,
-      "AOI_y_o": 129,
-      "description": "right lower face",
-      "mask_shapes": null,
-      "measures": [
-        {
-          "description": "area",
-          "value": -1,
-          "value_raw": -1
-        },
-        {
-          "description": "spot",
-          "value": -1,
-          "value_raw": -1
-        }
-      ],
-      "value": null,
-      "value_raw": null,
-      "visualization_data": null
-    },
-    {
-      "AOI_radius_o": 153,
-      "AOI_x_o": 412,
-      "AOI_y_o": 274,
-      "description": "forehead",
-      "mask_shapes": {
-        "coordinates": "original",
-        "mask": null,
-        "shapes": [
-          {
-            "color": 1,
-            "params": [
-              411,
-              339,
-              234,
-              152,
-              1,
-              180,
-              360
-            ],
-            "type": "ellipse"
-          },
-          {
-            "color": 0,
-            "params": [
-              [
-                55,
-                129
-              ],
-              [
-                758,
-                143
-              ],
-              [
-                757,
-                191
-              ],
-              [
-                54,
-                177
-              ]
-            ],
-            "type": "polygon"
+          "price_group": "standard",
+          "id": "CopyOf_2530224",
+          "parent_id": "CopyOf_pimprod2004946",
+          "image": "https://d38knilzwtuys1.cloudfront.net/revieve-plugin/productImages/Xz7PJdUpXL.jpeg",
+          "extra_attrs": 19,
+          "custom_data": {
+            "rating": "4.2",
+            "promotion": "3 for 2"
           }
-        ]
-      },
-      "measures": [
-        {
-          "description": "area",
-          "value": 0.919088217693708,
-          "value_raw": 0.7612316663507885
         },
-        {
-          "description": "spot",
-          "value": 0.38010994283486116,
-          "value_raw": 0.06051629695554271
-        }
-      ],
-      "value": 0.990363295101376,
-      "value_raw": 0.7612316663507885,
-      "visualization_data": [
-        {
-          "intensity": [
-            9.438616835632274
-          ],
-          "length": 1,
-          "length_weighted_intensity": 1.1798271044540343,
-          "mean_intensity": 9.438616835632274,
-          "median_intensity": 9.438616835632274,
-          "x": [
-            408
-          ],
-          "y": [
-            191
-          ]
-        },
-        {
-          "intensity": [
-            55.01037258614906
-          ],
-          "length": 1,
-          "length_weighted_intensity": 6.8762965732686325,
-          "mean_intensity": 55.01037258614906,
-          "median_intensity": 55.01037258614906,
-          "x": [
-            465
-          ],
-          "y": [
-            205
-          ]
-        },
-        {
-          "intensity": [
-            0.20672996892608353
-          ],
-          "length": 1,
-          "length_weighted_intensity": 0.02584124611576044,
-          "mean_intensity": 0.20672996892608353,
-          "median_intensity": 0.20672996892608353,
-          "x": [
-            473
-          ],
-          "y": [
-            223
-          ]
-        },
-        {
-          "intensity": [
-            0.3772974295216045
-          ],
-          "length": 1,
-          "length_weighted_intensity": 0.04716217869020056,
-          "mean_intensity": 0.3772974295216045,
-          "median_intensity": 0.3772974295216045,
-          "x": [
-            580
-          ],
-          "y": [
-            239
-          ]
-        },
-        {
-          "intensity": [
-            5.491688946585782
-          ],
-          "length": 1,
-          "length_weighted_intensity": 0.6864611183232228,
-          "mean_intensity": 5.491688946585782,
-          "median_intensity": 5.491688946585782,
-          "x": [
-            353
-          ],
-          "y": [
-            238
-          ]
-        },
-        {
-          "intensity": [
-            8.189927641433314
-          ],
-          "length": 1,
-          "length_weighted_intensity": 1.0237409551791643,
-          "mean_intensity": 8.189927641433314,
-          "median_intensity": 8.189927641433314,
-          "x": [
-            361
-          ],
-          "y": [
-            238
-          ]
-        },
-        {
-          "intensity": [
-            6.777479240918183
-          ],
-          "length": 1,
-          "length_weighted_intensity": 0.8471849051147728,
-          "mean_intensity": 6.777479240918183,
-          "median_intensity": 6.777479240918183,
-          "x": [
-            372
-          ],
-          "y": [
-            239
-          ]
-        },
-        {
-          "intensity": [
-            1.0530420265022258
-          ],
-          "length": 1,
-          "length_weighted_intensity": 0.13163025331277822,
-          "mean_intensity": 1.0530420265022258,
-          "median_intensity": 1.0530420265022258,
-          "x": [
-            386
-          ],
-          "y": [
-            247
-          ]
-        },
-        {
-          "intensity": [
-            31.727244450725266
-          ],
-          "length": 1,
-          "length_weighted_intensity": 3.9659055563406582,
-          "mean_intensity": 31.727244450725266,
-          "median_intensity": 31.727244450725266,
-          "x": [
-            576
-          ],
-          "y": [
-            250
-          ]
-        },
-        {
-          "intensity": [
-            1.501596908530928
-          ],
-          "length": 1,
-          "length_weighted_intensity": 0.187699613566366,
-          "mean_intensity": 1.501596908530928,
-          "median_intensity": 1.501596908530928,
-          "x": [
-            307
-          ],
-          "y": [
-            247
-          ]
-        },
-        {
-          "intensity": [
-            57.367720623824425
-          ],
-          "length": 1,
-          "length_weighted_intensity": 7.170965077978053,
-          "mean_intensity": 57.367720623824425,
-          "median_intensity": 57.367720623824425,
-          "x": [
-            437
-          ],
-          "y": [
-            251
-          ]
-        },
-        {
-          "intensity": [
-            30.24402075753096
-          ],
-          "length": 1,
-          "length_weighted_intensity": 3.78050259469137,
-          "mean_intensity": 30.24402075753096,
-          "median_intensity": 30.24402075753096,
-          "x": [
-            397
-          ],
-          "y": [
-            252
-          ]
-        },
-        {
-          "intensity": [
-            23.74304473563916
-          ],
-          "length": 1,
-          "length_weighted_intensity": 2.967880591954895,
-          "mean_intensity": 23.74304473563916,
-          "median_intensity": 23.74304473563916,
-          "x": [
-            449
-          ],
-          "y": [
-            253
-          ]
-        },
-        {
-          "intensity": [
-            99.3796082470808
-          ],
-          "length": 1,
-          "length_weighted_intensity": 12.4224510308851,
-          "mean_intensity": 99.3796082470808,
-          "median_intensity": 99.3796082470808,
-          "x": [
-            462
-          ],
-          "y": [
-            255
-          ]
-        },
-        {
-          "intensity": [
-            258.4979462671072
-          ],
-          "length": 1,
-          "length_weighted_intensity": 32.3122432833884,
-          "mean_intensity": 258.4979462671072,
-          "median_intensity": 258.4979462671072,
-          "x": [
-            522
-          ],
-          "y": [
-            256
-          ]
-        },
-        {
-          "intensity": [
-            0.761228691731958
-          ],
-          "length": 1,
-          "length_weighted_intensity": 0.09515358646649474,
-          "mean_intensity": 0.761228691731958,
-          "median_intensity": 0.761228691731958,
-          "x": [
-            603
-          ],
-          "y": [
-            259
-          ]
-        },
-        {
-          "intensity": [
-            54.49543012493905
-          ],
-          "length": 1,
-          "length_weighted_intensity": 6.811928765617381,
-          "mean_intensity": 54.49543012493905,
-          "median_intensity": 54.49543012493905,
-          "x": [
-            261
-          ],
-          "y": [
-            253
-          ]
-        },
-        {
-          "intensity": [
-            15.451289549251669
-          ],
-          "length": 1,
-          "length_weighted_intensity": 1.9314111936564586,
-          "mean_intensity": 15.451289549251669,
-          "median_intensity": 15.451289549251669,
-          "x": [
-            489
-          ],
-          "y": [
-            258
-          ]
-        },
-        {
-          "intensity": [
-            20.823629767404782
-          ],
-          "length": 1,
-          "length_weighted_intensity": 2.6029537209255977,
-          "mean_intensity": 20.823629767404782,
-          "median_intensity": 20.823629767404782,
-          "x": [
-            243
-          ],
-          "y": [
-            255
-          ]
-        },
-        {
-          "intensity": [
-            3.822263352867594
-          ],
-          "length": 1,
-          "length_weighted_intensity": 0.4777829191084493,
-          "mean_intensity": 3.822263352867594,
-          "median_intensity": 3.822263352867594,
-          "x": [
-            307
-          ],
-          "y": [
-            258
-          ]
-        },
-        {
-          "intensity": [
-            0.8055456914007664
-          ],
-          "length": 1,
-          "length_weighted_intensity": 0.1006932114250958,
-          "mean_intensity": 0.8055456914007664,
-          "median_intensity": 0.8055456914007664,
-          "x": [
-            606
-          ],
-          "y": [
-            269
-          ]
-        },
-        {
-          "intensity": [
-            40.22603265015641
-          ],
-          "length": 1,
-          "length_weighted_intensity": 5.0282540812695515,
-          "mean_intensity": 40.22603265015641,
-          "median_intensity": 40.22603265015641,
-          "x": [
-            252
-          ],
-          "y": [
-            264
-          ]
-        },
-        {
-          "intensity": [
-            145.78463969404402
-          ],
-          "length": 1,
-          "length_weighted_intensity": 18.223079961755502,
-          "mean_intensity": 145.78463969404402,
-          "median_intensity": 145.78463969404402,
-          "x": [
-            335
-          ],
-          "y": [
-            285
-          ]
-        },
-        {
-          "intensity": [
-            108.55221558178982
-          ],
-          "length": 1,
-          "length_weighted_intensity": 13.569026947723728,
-          "mean_intensity": 108.55221558178982,
-          "median_intensity": 108.55221558178982,
-          "x": [
-            352
-          ],
-          "y": [
-            287
-          ]
-        },
-        {
-          "intensity": [
-            117.9493075178616
-          ],
-          "length": 1,
-          "length_weighted_intensity": 14.7436634397327,
-          "mean_intensity": 117.9493075178616,
-          "median_intensity": 117.9493075178616,
-          "x": [
-            365
-          ],
-          "y": [
-            288
-          ]
-        },
-        {
-          "intensity": [
-            287.38736489335133
-          ],
-          "length": 1,
-          "length_weighted_intensity": 35.92342061166892,
-          "mean_intensity": 287.38736489335133,
-          "median_intensity": 287.38736489335133,
-          "x": [
-            409
-          ],
-          "y": [
-            290
-          ]
-        },
-        {
-          "intensity": [
-            236.59424634825336
-          ],
-          "length": 1,
-          "length_weighted_intensity": 29.57428079353167,
-          "mean_intensity": 236.59424634825336,
-          "median_intensity": 236.59424634825336,
-          "x": [
-            196
-          ],
-          "y": [
-            287
-          ]
-        },
-        {
-          "intensity": [
-            108.28114718571305
-          ],
-          "length": 1,
-          "length_weighted_intensity": 13.535143398214132,
-          "mean_intensity": 108.28114718571305,
-          "median_intensity": 108.28114718571305,
-          "x": [
-            380
-          ],
-          "y": [
-            291
-          ]
-        },
-        {
-          "intensity": [
-            144.76621429488296
-          ],
-          "length": 1,
-          "length_weighted_intensity": 18.09577678686037,
-          "mean_intensity": 144.76621429488296,
-          "median_intensity": 144.76621429488296,
-          "x": [
-            469
-          ],
-          "y": [
-            294
-          ]
-        },
-        {
-          "intensity": [
-            159.3760326864467
-          ],
-          "length": 1,
-          "length_weighted_intensity": 19.92200408580584,
-          "mean_intensity": 159.3760326864467,
-          "median_intensity": 159.3760326864467,
-          "x": [
-            284
-          ],
-          "y": [
-            291
-          ]
-        },
-        {
-          "intensity": [
-            164.00125059351558
-          ],
-          "length": 1,
-          "length_weighted_intensity": 20.500156324189447,
-          "mean_intensity": 164.00125059351558,
-          "median_intensity": 164.00125059351558,
-          "x": [
-            305
-          ],
-          "y": [
-            292
-          ]
-        },
-        {
-          "intensity": [
-            137.83632775046863
-          ],
-          "length": 1,
-          "length_weighted_intensity": 17.22954096880858,
-          "mean_intensity": 137.83632775046863,
-          "median_intensity": 137.83632775046863,
-          "x": [
-            429
-          ],
-          "y": [
-            294
-          ]
-        },
-        {
-          "intensity": [
-            189.80689698598871
-          ],
-          "length": 1,
-          "length_weighted_intensity": 23.72586212324859,
-          "mean_intensity": 189.80689698598871,
-          "median_intensity": 189.80689698598871,
-          "x": [
-            460
-          ],
-          "y": [
-            295
-          ]
-        },
-        {
-          "intensity": [
-            117.59651108295657
-          ],
-          "length": 1,
-          "length_weighted_intensity": 14.699563885369571,
-          "mean_intensity": 117.59651108295657,
-          "median_intensity": 117.59651108295657,
-          "x": [
-            450
-          ],
-          "y": [
-            296
-          ]
-        },
-        {
-          "intensity": [
-            400.0
-          ],
-          "length": 1,
-          "length_weighted_intensity": 50.0,
-          "mean_intensity": 400.0,
-          "median_intensity": 400.0,
-          "x": [
-            245
-          ],
-          "y": [
-            293
-          ]
-        },
-        {
-          "intensity": [
-            178.89511492685415
-          ],
-          "length": 1,
-          "length_weighted_intensity": 22.36188936585677,
-          "mean_intensity": 178.89511492685415,
-          "median_intensity": 178.89511492685415,
-          "x": [
-            264
-          ],
-          "y": [
-            293
-          ]
-        },
-        {
-          "intensity": [
-            207.69020459387684
-          ],
-          "length": 1,
-          "length_weighted_intensity": 25.961275574234605,
-          "mean_intensity": 207.69020459387684,
-          "median_intensity": 207.69020459387684,
-          "x": [
-            272
-          ],
-          "y": [
-            294
-          ]
-        },
-        {
-          "intensity": [
-            219.49447011161828
-          ],
-          "length": 1,
-          "length_weighted_intensity": 27.436808763952286,
-          "mean_intensity": 219.49447011161828,
-          "median_intensity": 219.49447011161828,
-          "x": [
-            477
-          ],
-          "y": [
-            299
-          ]
-        },
-        {
-          "intensity": [
-            400.0
-          ],
-          "length": 1,
-          "length_weighted_intensity": 50.0,
-          "mean_intensity": 400.0,
-          "median_intensity": 400.0,
-          "x": [
-            494
-          ],
-          "y": [
-            300
-          ]
-        },
-        {
-          "intensity": [
-            400.0
-          ],
-          "length": 1,
-          "length_weighted_intensity": 50.0,
-          "mean_intensity": 400.0,
-          "median_intensity": 400.0,
-          "x": [
-            509
-          ],
-          "y": [
-            303
-          ]
-        },
-        {
-          "intensity": [
-            400.0
-          ],
-          "length": 1,
-          "length_weighted_intensity": 50.0,
-          "mean_intensity": 400.0,
-          "median_intensity": 400.0,
-          "x": [
-            522
-          ],
-          "y": [
-            306
-          ]
-        },
-        {
-          "intensity": [
-            400.0
-          ],
-          "length": 1,
-          "length_weighted_intensity": 50.0,
-          "mean_intensity": 400.0,
-          "median_intensity": 400.0,
-          "x": [
-            534
-          ],
-          "y": [
-            311
-          ]
-        },
-        {
-          "intensity": [
-            262.89542690292
-          ],
-          "length": 1,
-          "length_weighted_intensity": 32.861928362865,
-          "mean_intensity": 262.89542690292,
-          "median_intensity": 262.89542690292,
-          "x": [
-            590
-          ],
-          "y": [
-            312
-          ]
-        },
-        {
-          "intensity": [
-            400.0
-          ],
-          "length": 1,
-          "length_weighted_intensity": 50.0,
-          "mean_intensity": 400.0,
-          "median_intensity": 400.0,
-          "x": [
-            557
-          ],
-          "y": [
-            312
-          ]
-        },
-        {
-          "intensity": [
-            141.55098370439737
-          ],
-          "length": 1,
-          "length_weighted_intensity": 17.69387296304967,
-          "mean_intensity": 141.55098370439737,
-          "median_intensity": 141.55098370439737,
-          "x": [
-            202
-          ],
-          "y": [
-            310
-          ]
-        },
-        {
-          "intensity": [
-            104.39560531507959
-          ],
-          "length": 1,
-          "length_weighted_intensity": 13.049450664384949,
-          "mean_intensity": 104.39560531507959,
-          "median_intensity": 104.39560531507959,
-          "x": [
-            609
-          ],
-          "y": [
-            319
-          ]
-        },
-        {
-          "intensity": [
-            400.0
-          ],
-          "length": 1,
-          "length_weighted_intensity": 50.0,
-          "mean_intensity": 400.0,
-          "median_intensity": 400.0,
-          "x": [
-            272
-          ],
-          "y": [
-            322
-          ]
-        },
-        {
-          "intensity": [
-            400.0
-          ],
-          "length": 1,
-          "length_weighted_intensity": 50.0,
-          "mean_intensity": 400.0,
-          "median_intensity": 400.0,
-          "x": [
-            285
-          ],
-          "y": [
-            322
-          ]
-        },
-        {
-          "intensity": [
-            400.0
-          ],
-          "length": 1,
-          "length_weighted_intensity": 50.0,
-          "mean_intensity": 400.0,
-          "median_intensity": 400.0,
-          "x": [
-            253
-          ],
-          "y": [
-            322
-          ]
-        },
-        {
-          "intensity": [
-            400.0
-          ],
-          "length": 1,
-          "length_weighted_intensity": 50.0,
-          "mean_intensity": 400.0,
-          "median_intensity": 400.0,
-          "x": [
-            296
-          ],
-          "y": [
-            325
-          ]
-        },
-        {
-          "intensity": [
-            121.35357518034289
-          ],
-          "length": 1,
-          "length_weighted_intensity": 15.16919689754286,
-          "mean_intensity": 121.35357518034289,
-          "median_intensity": 121.35357518034289,
-          "x": [
-            333
-          ],
-          "y": [
-            325
-          ]
-        },
-        {
-          "intensity": [
-            30.905778775399995
-          ],
-          "length": 1,
-          "length_weighted_intensity": 3.8632223469249993,
-          "mean_intensity": 30.905778775399995,
-          "median_intensity": 30.905778775399995,
-          "x": [
-            464
-          ],
-          "y": [
-            328
-          ]
-        },
-        {
-          "intensity": [
-            400.0
-          ],
-          "length": 1,
-          "length_weighted_intensity": 50.0,
-          "mean_intensity": 400.0,
-          "median_intensity": 400.0,
-          "x": [
-            224
-          ],
-          "y": [
-            324
-          ]
-        },
-        {
-          "intensity": [
-            48.78527755920368
-          ],
-          "length": 1,
-          "length_weighted_intensity": 6.09815969490046,
-          "mean_intensity": 48.78527755920368,
-          "median_intensity": 48.78527755920368,
-          "x": [
-            350
-          ],
-          "y": [
-            327
-          ]
-        },
-        {
-          "intensity": [
-            68.04932991801707
-          ],
-          "length": 1,
-          "length_weighted_intensity": 8.506166239752133,
-          "mean_intensity": 68.04932991801707,
-          "median_intensity": 68.04932991801707,
-          "x": [
-            477
-          ],
-          "y": [
-            329
-          ]
-        },
-        {
-          "intensity": [
-            70.10872845960785
-          ],
-          "length": 1,
-          "length_weighted_intensity": 8.76359105745098,
-          "mean_intensity": 70.10872845960785,
-          "median_intensity": 70.10872845960785,
-          "x": [
-            488
-          ],
-          "y": [
-            330
-          ]
-        },
-        {
-          "intensity": [
-            74.2150990456721
-          ],
-          "length": 1,
-          "length_weighted_intensity": 9.276887380709013,
-          "mean_intensity": 74.2150990456721,
-          "median_intensity": 74.2150990456721,
-          "x": [
-            631
-          ],
-          "y": [
-            332
-          ]
-        },
-        {
-          "intensity": [
-            26.095588444005443
-          ],
-          "length": 1,
-          "length_weighted_intensity": 3.2619485555006804,
-          "mean_intensity": 26.095588444005443,
-          "median_intensity": 26.095588444005443,
-          "x": [
-            379
-          ],
-          "y": [
-            329
-          ]
-        },
-        {
-          "intensity": [
-            54.50145663519743
-          ],
-          "length": 1,
-          "length_weighted_intensity": 6.8126820793996785,
-          "mean_intensity": 54.50145663519743,
-          "median_intensity": 54.50145663519743,
-          "x": [
-            445
-          ],
-          "y": [
-            330
-          ]
-        },
-        {
-          "intensity": [
-            38.358031109688454
-          ],
-          "length": 1,
-          "length_weighted_intensity": 4.794753888711057,
-          "mean_intensity": 38.358031109688454,
-          "median_intensity": 38.358031109688454,
-          "x": [
-            400
-          ],
-          "y": [
-            330
-          ]
-        },
-        {
-          "intensity": [
-            31.442538368995884
-          ],
-          "length": 1,
-          "length_weighted_intensity": 3.9303172961244854,
-          "mean_intensity": 31.442538368995884,
-          "median_intensity": 31.442538368995884,
-          "x": [
-            415
-          ],
-          "y": [
-            330
-          ]
-        },
-        {
-          "intensity": [
-            84.76343623693629
-          ],
-          "length": 1,
-          "length_weighted_intensity": 10.595429529617036,
-          "mean_intensity": 84.76343623693629,
-          "median_intensity": 84.76343623693629,
-          "x": [
-            513
-          ],
-          "y": [
-            332
-          ]
-        },
-        {
-          "intensity": [
-            47.42705276621564
-          ],
-          "length": 1,
-          "length_weighted_intensity": 5.928381595776955,
-          "mean_intensity": 47.42705276621564,
-          "median_intensity": 47.42705276621564,
-          "x": [
-            426
-          ],
-          "y": [
-            332
-          ]
-        },
-        {
-          "intensity": [
-            31.231151299380144
-          ],
-          "length": 1,
-          "length_weighted_intensity": 3.903893912422518,
-          "mean_intensity": 31.231151299380144,
-          "median_intensity": 31.231151299380144,
-          "x": [
-            532
-          ],
-          "y": [
-            337
-          ]
-        },
-        {
-          "intensity": [
-            194.11606778973146
-          ],
-          "length": 1,
-          "length_weighted_intensity": 24.264508473716432,
-          "mean_intensity": 194.11606778973146,
-          "median_intensity": 194.11606778973146,
-          "x": [
-            551
-          ],
-          "y": [
-            340
-          ]
-        },
-        {
-          "intensity": [
-            222.733796902412
-          ],
-          "length": 1,
-          "length_weighted_intensity": 27.8417246128015,
-          "mean_intensity": 222.733796902412,
-          "median_intensity": 222.733796902412,
-          "x": [
-            585
-          ],
-          "y": [
-            342
-          ]
-        }
-      ]
-    },
-    {
-      "AOI_radius_o": 131,
-      "AOI_x_o": 417,
-      "AOI_y_o": 541,
-      "description": "nose",
-      "mask_shapes": {
-        "coordinates": "original",
-        "mask": {
-          "color": 1,
-          "params": [
-            [
-              372,
-              517
-            ],
-            [
-              305,
-              379
-            ],
-            [
-              421,
-              371
-            ],
-            [
-              532,
-              386
-            ],
-            [
-              464,
-              519
-            ],
-            [
-              507,
-              708
-            ],
-            [
-              319,
-              704
-            ]
-          ],
-          "type": "unrestricted_polygon"
-        },
-        "shapes": [
-          {
-            "color": 1,
-            "params": [
-              [
-                107,
-                494
-              ],
-              [
-                107,
-                581
-              ],
-              [
-                118,
-                669
-              ],
-              [
-                135,
-                753
-              ],
-              [
-                163,
-                836
-              ],
-              [
-                206,
-                911
-              ],
-              [
-                257,
-                973
-              ],
-              [
-                320,
-                1019
-              ],
-              [
-                398,
-                1031
-              ],
-              [
-                472,
-                1016
-              ],
-              [
-                528,
-                962
-              ],
-              [
-                572,
-                895
-              ],
-              [
-                608,
-                824
-              ],
-              [
-                639,
-                750
-              ],
-              [
-                666,
-                677
-              ],
-              [
-                687,
-                600
-              ],
-              [
-                692,
-                522
-              ],
-              [
-                692,
-                506
-              ]
-            ],
-            "type": "polygon"
-          },
-          {
-            "color": 1,
-            "params": [
-              399,
-              499,
-              292,
-              321,
-              1,
-              180,
-              360
-            ],
-            "type": "ellipse"
-          },
-          {
-            "color": 0,
-            "params": [
-              252,
-              526,
-              74,
-              37,
-              1,
-              0,
-              360
-            ],
-            "type": "ellipse"
-          },
-          {
-            "color": 0,
-            "params": [
-              559,
-              533,
-              68,
-              37,
-              1,
-              0,
-              360
-            ],
-            "type": "ellipse"
-          },
-          {
-            "color": 0,
-            "params": [
-              [
-                139,
-                438
-              ],
-              [
-                176,
-                385
-              ],
-              [
-                240,
-                367
-              ],
-              [
-                305,
-                379
-              ],
-              [
-                364,
-                405
-              ],
-              [
-                363,
-                434
-              ],
-              [
-                304,
-                406
-              ],
-              [
-                240,
-                392
-              ],
-              [
-                176,
-                407
-              ],
-              [
-                139,
-                458
-              ]
-            ],
-            "type": "unrestricted_polygon"
-          },
-          {
-            "color": 0,
-            "params": [
-              [
-                475,
-                407
-              ],
-              [
-                532,
-                386
-              ],
-              [
-                590,
-                376
-              ],
-              [
-                645,
-                393
-              ],
-              [
-                673,
-                446
-              ],
-              [
-                673,
-                466
-              ],
-              [
-                645,
-                413
-              ],
-              [
-                590,
-                396
-              ],
-              [
-                532,
-                406
-              ],
-              [
-                475,
-                427
-              ]
-            ],
-            "type": "unrestricted_polygon"
-          },
-          {
-            "color": 0,
-            "params": [
-              [
-                289,
-                849
-              ],
-              [
-                329,
-                828
-              ],
-              [
-                369,
-                819
-              ],
-              [
-                405,
-                832
-              ],
-              [
-                441,
-                821
-              ],
-              [
-                479,
-                831
-              ],
-              [
-                515,
-                854
-              ],
-              [
-                478,
-                882
-              ],
-              [
-                442,
-                900
-              ],
-              [
-                404,
-                904
-              ],
-              [
-                365,
-                899
-              ],
-              [
-                328,
-                881
-              ]
-            ],
-            "type": "unrestricted_polygon"
-          },
-          {
-            "color": 0,
-            "params": [
-              348,
-              724,
-              52,
-              29,
-              1,
-              0,
-              360
-            ],
-            "type": "ellipse"
-          },
-          {
-            "color": 0,
-            "params": [
-              469,
-              726,
-              52,
-              29,
-              1,
-              0,
-              360
-            ],
-            "type": "ellipse"
-          },
-          {
-            "color": 0,
-            "params": [
-              [
-                55,
-                129
-              ],
-              [
-                127,
-                130
-              ],
-              [
-                108,
-                1084
-              ],
-              [
-                36,
-                1082
-              ]
-            ],
-            "type": "polygon"
-          },
-          {
-            "color": 0,
-            "params": [
-              [
-                696,
-                142
-              ],
-              [
-                758,
-                143
-              ],
-              [
-                739,
-                1096
-              ],
-              [
-                677,
-                1095
-              ]
-            ],
-            "type": "polygon"
+        "Moisturizer": {
+          "name": "SMART COMBINATION Smoothing Lightweight Emulsion",
+          "category": "Moisturizer",
+          "manufacturer": "bareMinerals",
+          "description": "Combination to Normal Skin Types\nBring your skin back to beautiful balance with this lightweight oil-free lotion moisturizer. Powered by Intuitive Mineral Moisture Technology, Smart Combination Smoothing Lightweight Emulsion replenishes combination to normal skin with oil-free hydration to leave it feeling incredibly soft and ultra-smooth. This moisture-rich yet lightly-textured emulsion helps to increase moisture levels for healthy-looking balance. Plus, a blend of peptides, ceramides and amino acids to help smooth rough texture, lessening the appearance of fine lines and wrinkles. The subtle notes of Bergamot and Eucalyptus* add to the sensory experience to gently enliven and awaken your senses.\n*Naturally derived fragrance\nDermatologist tested. Non-comedogenic.\n Directions: Finish your beauty ritual with Smart Combination Smoothing Lightweight Emulsion to keep your skin feeling replenished and looking radiant.\n \n   Apply 2-3 pumps to face and neck after cleansing and following SkinLongevity Vital Power Infusion\n   Use morning and night to leave skin with balanced hydration\n \n Net Weight: 50 ml  / 1.7 oz. \n Ingredients: Water (Aqua/Eau), Glycerin, Caprylic/Capric Triglyceride, Butylene Glycol, Propanediol, Isodecyl Neopentanoate, PEG/PPG-14/7 Dimethyl Ether, Squalane, Trehalose, Tricaprylin, Dimethicone, Behenyl Alcohol, Silica, Beheneth-20, Isostearic Acid, Urea, Myristyl Myristate, Glucosamine HCL, Batyl Alcohol, Algae Extract, Saccharomyces Cerevisiae Extract, Hydrogenated Polyisobutene, Sodium PCA, Allantoin, Ethylhexylglycerin, Lauryl Betaine, Ammonium Acryloyldimethyltaurate/Beheneth-25 Methacrylate Crosspolymer, Stearamidopropyl Dimethylamine, Succinoglycan, Phytosteryl/Octyldodecyl Lauroyl Glutamate, Sodium Citrate, Copernicia Cerifera (Carnauba) Wax (Cera Carnauba/Cire De Carnauba), Alcohol, Citric Acid, Carbomer, Sodium Metaphosphate, Polysorbate 20, Sodium Metabisulfite, Sodium Hyaluronate, Hypericum Erectum Extract, Palmitoyl Tetrapeptide-7, Tocopherol, Palmitoyl Tripeptide-1, Ceramide NP, Fragrance (Parfum), Geraniol, Limonene, Linalool, Sodium Benzoate, Phenoxyethanol.",
+          "price": 35,
+          "rating": 0,
+          "url": "http://www.revieve.com",
+          "score": 0.713,
+          "filter_match": [
+            "dull_skin_cv",
+            "dull_tired_ui",
+            "smoothness_cv",
+            "normal_skin_ui"
+          ],
+          "price_group": "standard",
+          "id": "CopyOf_098132445714",
+          "parent_id": "CopyOf_5912",
+          "image": "https://d38knilzwtuys1.cloudfront.net/revieve-plugin/productImages/MFS0fXnMeR.jpeg",
+          "extra_attrs": 5,
+          "custom_data": {
+            "rating": "4.56",
+            "promotion": "3 for 2"
           }
-        ]
-      },
-      "measures": [
-        {
-          "description": "area",
-          "value": 0.10647741139262876,
-          "value_raw": 0.11549863700320892
         },
-        {
-          "description": "spot",
-          "value": 0.0045068857782885096,
-          "value_raw": 0.0012425405300349184
-        }
-      ],
-      "value": 0.10647741139262876,
-      "value_raw": 0.11549863700320892,
-      "visualization_data": [
-        {
-          "intensity": [
-            7.957546549260769
+        "Exfoliator": {
+          "name": "Botanical Exfoliating Scrub",
+          "category": "Exfoliator",
+          "manufacturer": "Mario Badescu",
+          "description": "Botanical Exfoliating Scrub - Banish dullness and reveal a smoother, more radiant complexion with Mario Badescu's refreshing, deep-cleansing Botanical Exfoliating Scrub. This scrub is formulated to refine and perfect your complexion with a unique combination of finely ground Ecuadorian ivory palm seeds and nourishing botanicals, including ginger, ginkgo, green tea, aloe, and coconut. This gentle, gel-based formula sloughs off the dulling dead skin cells that can lead to breakouts or cause skin to look lifeless and aged, helping you to achieve clearer, younger-looking, more radiant skin. - Botanical Exfoliating Scrub",
+          "price": 26,
+          "url": "http://www.revieve.com",
+          "score": 0.713,
+          "filter_match": [
+            "dull_skin_cv",
+            "dull_tired_ui",
+            "smoothness_cv",
+            "normal_skin_ui"
           ],
-          "length": 1,
-          "length_weighted_intensity": 0.9946933186575961,
-          "mean_intensity": 7.957546549260769,
-          "median_intensity": 7.957546549260769,
-          "x": [
-            414
-          ],
-          "y": [
-            371
-          ]
+          "price_group": "standard",
+          "id": "CopyOf_2289501",
+          "parent_id": "CopyOf_xlsImpprod12491005",
+          "image": "https://d38knilzwtuys1.cloudfront.net/revieve-plugin/productImages/mFz0sQ6hBG.jpeg",
+          "extra_attrs": 6
         },
-        {
-          "intensity": [
-            124.93756710506568
+        "Serum": {
+          "name": "Hyalu B5 Pure Hyaluronic Acid Face Serum",
+          "category": "Serum",
+          "manufacturer": "La Roche-Posay",
+          "description": "Hyalu B5 Pure Hyaluronic Acid Face Serum - La Roche-Posay Hyalu B5 Hyaluronic Acid Face Serum and Anti-Aging Concentrate is a serum formulated with two types of hyaluronic acid and vitamin B5. Hyaluronic acid absorbs up to 1,000 times its weight in water for an immediate plumping effect and long lasting hydration. With high molecular weight hyaluronic acid and low molecular weight hyaluronic acid, Hyalu B5 helps lock in moisture and leaves skin feeling plump to the touch. Also formulated with vitamin B5, Hyalu B5 helps repair skin's natural moisture barrier to help skin retain hydration. This hyaluronic acid serum has a fresh fragrance in an allergy tested formula and also contains, Madecassoside and La Roche-Posay Thermal Spring Water to help soothe skin.  Benefits:   Two types of pure hyaluronic acid &amp; vitamin B5 to lock in moisture, help repair &amp; replump skin in 4 hours Suitable for sensitive skin Dermatologist-tested Allergy-tested formula with fragrance Paraben-free Brand Story: Recommended by 90,000 dermatologists worldwide, La Roche-Posay offers unique daily skincare developed using a strict formulation charter and stringent clinical testing for efficacy and safety, even on sensitive skin. Product packaging may vary. - Hyalu B5 Pure Hyaluronic Acid Face Serum",
+          "price": 29.99,
+          "url": "http://www.revieve.com",
+          "score": 0.713,
+          "filter_match": [
+            "dull_skin_cv",
+            "dull_tired_ui",
+            "smoothness_cv",
+            "normal_skin_ui"
           ],
-          "length": 1,
-          "length_weighted_intensity": 15.61719588813321,
-          "mean_intensity": 124.93756710506568,
-          "median_intensity": 124.93756710506568,
-          "x": [
-            493
-          ],
-          "y": [
-            380
-          ]
+          "price_group": "standard",
+          "id": "CopyOf_2556945",
+          "parent_id": "CopyOf_pimprod2012178",
+          "image": "https://d38knilzwtuys1.cloudfront.net/revieve-plugin/productImages/AtK1rCpDQR.jpeg",
+          "extra_attrs": 8
         },
-        {
-          "intensity": [
-            0.8969002689846093
+        "Face Mask": {
+          "name": "Clay Mask AHA",
+          "category": "Face Mask",
+          "manufacturer": "Baxter of California",
+          "description": "Clay Mask AHA - Deep cleansing clay mask purifies and revitalizes skin in just 10 minutes. Alpha Hydroxyl Acid, or AHA, helps to exfoliate while improving signs of aging, dry skin and evening skin-tone. This detoxifying facial mask utilizes natural kaolin and bentonite clay to remove dirt, oil and other impurities from deep within the pores, shrinking breakouts and clearing up skin in the process. Calendula extract, aloe leaf juice and witch hazel soothe, hydrate and condition to leave your complexion looking refreshed and revitalized.Key Benefits:Alpha Hydroxyl Acid (AHA) exfoliates while improving signs of aging, dry skin and evening skin-toneClay removes dirt, oil and other impurities from deep within pores, shrinks breakouts and clears up skinCalendula extract, aloe leaf juice and witch hazel hydrate, calm and conditionFragrance-free - Clay Mask AHA",
+          "price": 24,
+          "url": "http://www.revieve.com",
+          "score": 0.56,
+          "filter_match": [
+            "hyperpigmentation_cv",
+            "uneven_skintone_cv",
+            "normal_skin_ui"
           ],
-          "length": 1,
-          "length_weighted_intensity": 0.11211253362307616,
-          "mean_intensity": 0.8969002689846093,
-          "median_intensity": 0.8969002689846093,
-          "x": [
-            423
-          ],
-          "y": [
-            447
-          ]
+          "price_group": "standard",
+          "id": "CopyOf_2547440",
+          "parent_id": "CopyOf_pimprod2005618",
+          "image": "https://d38knilzwtuys1.cloudfront.net/revieve-plugin/productImages/1yUavz7jY7.jpeg",
+          "extra_attrs": 9
         },
-        {
-          "intensity": [
-            2.0366407871335923
+        "Toner": {
+          "name": "Clarifying Lotion 1.0",
+          "category": "Toner",
+          "manufacturer": "Clinique",
+          "description": "Clarifying Lotion 1.0 - Clinique's Clarifying Lotion 1.0 is a gentle, alcohol-free exfoliator for all skin types.Dermatologist-developed, alcohol-free formula helps reveal fresher skin. Mild, non-drying lotion soothes, de-flakes, smooths, protects natural moisture. Leaves skin radiant and ready for treatments to follow.Benefits:Allergy testedNon-acnegnicDermatologist developedClinique Clean Philosophy:No parabensNo phthalatesNo fragranceJust happy skinWhat else is this product free of?Oil FreeFree of Denatured AlcoholFree of Synthetic ColoursSLS FreeSLES FreeSulfate FreeSee Clinique's 3-Step Skin Care System here. - Clarifying Lotion 1.0",
+          "price": 27,
+          "url": "http://www.revieve.com",
+          "score": 0.53,
+          "filter_match": [
+            "normal_skin_ui"
           ],
-          "length": 1,
-          "length_weighted_intensity": 0.25458009839169904,
-          "mean_intensity": 2.0366407871335923,
-          "median_intensity": 2.0366407871335923,
-          "x": [
-            464
-          ],
-          "y": [
-            517
-          ]
-        },
-        {
-          "intensity": [
-            1.819842106692704
-          ],
-          "length": 1,
-          "length_weighted_intensity": 0.227480263336588,
-          "mean_intensity": 1.819842106692704,
-          "median_intensity": 1.819842106692704,
-          "x": [
-            368
-          ],
-          "y": [
-            530
-          ]
-        },
-        {
-          "intensity": [
-            9.315321339818183
-          ],
-          "length": 1,
-          "length_weighted_intensity": 1.164415167477273,
-          "mean_intensity": 9.315321339818183,
-          "median_intensity": 9.315321339818183,
-          "x": [
-            375
-          ],
-          "y": [
-            562
-          ]
-        },
-        {
-          "intensity": [
-            61.377915791035775
-          ],
-          "length": 1,
-          "length_weighted_intensity": 7.672239473879472,
-          "mean_intensity": 61.377915791035775,
-          "median_intensity": 61.377915791035775,
-          "x": [
-            377
-          ],
-          "y": [
-            570
-          ]
-        },
-        {
-          "intensity": [
-            3.081590508593081
-          ],
-          "length": 1,
-          "length_weighted_intensity": 0.3851988135741351,
-          "mean_intensity": 3.081590508593081,
-          "median_intensity": 3.081590508593081,
-          "x": [
-            450
-          ],
-          "y": [
-            574
-          ]
-        },
-        {
-          "intensity": [
-            2.522559776902199
-          ],
-          "length": 1,
-          "length_weighted_intensity": 0.31531997211277485,
-          "mean_intensity": 2.522559776902199,
-          "median_intensity": 2.522559776902199,
-          "x": [
-            367
-          ],
-          "y": [
-            588
-          ]
-        },
-        {
-          "intensity": [
-            3.564101124841045
-          ],
-          "length": 1,
-          "length_weighted_intensity": 0.4455126406051306,
-          "mean_intensity": 3.564101124841045,
-          "median_intensity": 3.564101124841045,
-          "x": [
-            451
-          ],
-          "y": [
-            592
-          ]
-        },
-        {
-          "intensity": [
-            6.528918399476424
-          ],
-          "length": 1,
-          "length_weighted_intensity": 0.816114799934553,
-          "mean_intensity": 6.528918399476424,
-          "median_intensity": 6.528918399476424,
-          "x": [
-            367
-          ],
-          "y": [
-            606
-          ]
-        },
-        {
-          "intensity": [
-            12.906554543154925
-          ],
-          "length": 1,
-          "length_weighted_intensity": 1.6133193178943657,
-          "mean_intensity": 12.906554543154925,
-          "median_intensity": 12.906554543154925,
-          "x": [
-            374
-          ],
-          "y": [
-            623
-          ]
-        },
-        {
-          "intensity": [
-            1.1823837103520418
-          ],
-          "length": 1,
-          "length_weighted_intensity": 0.14779796379400523,
-          "mean_intensity": 1.1823837103520418,
-          "median_intensity": 1.1823837103520418,
-          "x": [
-            361
-          ],
-          "y": [
-            642
-          ]
-        },
-        {
-          "intensity": [
-            24.277246580317296
-          ],
-          "length": 1,
-          "length_weighted_intensity": 3.034655822539662,
-          "mean_intensity": 24.277246580317296,
-          "median_intensity": 24.277246580317296,
-          "x": [
-            354
-          ],
-          "y": [
-            661
-          ]
-        },
-        {
-          "intensity": [
-            61.6125345826149
-          ],
-          "length": 1,
-          "length_weighted_intensity": 7.701566822826862,
-          "mean_intensity": 61.6125345826149,
-          "median_intensity": 61.6125345826149,
-          "x": [
-            494
-          ],
-          "y": [
-            670
-          ]
-        },
-        {
-          "intensity": [
-            0.05799148324877024
-          ],
-          "length": 1,
-          "length_weighted_intensity": 0.00724893540609628,
-          "mean_intensity": 0.05799148324877024,
-          "median_intensity": 0.05799148324877024,
-          "x": [
-            449
-          ],
-          "y": [
-            681
-          ]
-        }
-      ]
-    },
-    {
-      "AOI_radius_o": 63,
-      "AOI_x_o": 589,
-      "AOI_y_o": 694,
-      "description": "right cheek",
-      "mask_shapes": {
-        "coordinates": "original",
-        "mask": null,
-        "shapes": [
-          {
-            "color": 1,
-            "params": [
-              [
-                107,
-                494
-              ],
-              [
-                107,
-                581
-              ],
-              [
-                118,
-                669
-              ],
-              [
-                135,
-                753
-              ],
-              [
-                163,
-                836
-              ],
-              [
-                206,
-                911
-              ],
-              [
-                257,
-                973
-              ],
-              [
-                320,
-                1019
-              ],
-              [
-                398,
-                1031
-              ],
-              [
-                472,
-                1016
-              ],
-              [
-                528,
-                962
-              ],
-              [
-                572,
-                895
-              ],
-              [
-                608,
-                824
-              ],
-              [
-                639,
-                750
-              ],
-              [
-                666,
-                677
-              ],
-              [
-                687,
-                600
-              ],
-              [
-                692,
-                522
-              ],
-              [
-                692,
-                506
-              ]
-            ],
-            "type": "polygon"
-          },
-          {
-            "color": 1,
-            "params": [
-              399,
-              499,
-              292,
-              321,
-              1,
-              180,
-              360
-            ],
-            "type": "ellipse"
-          },
-          {
-            "color": 0,
-            "params": [
-              252,
-              526,
-              74,
-              37,
-              1,
-              0,
-              360
-            ],
-            "type": "ellipse"
-          },
-          {
-            "color": 0,
-            "params": [
-              559,
-              533,
-              68,
-              37,
-              1,
-              0,
-              360
-            ],
-            "type": "ellipse"
-          },
-          {
-            "color": 0,
-            "params": [
-              [
-                139,
-                438
-              ],
-              [
-                176,
-                385
-              ],
-              [
-                240,
-                367
-              ],
-              [
-                305,
-                379
-              ],
-              [
-                364,
-                405
-              ],
-              [
-                363,
-                434
-              ],
-              [
-                304,
-                406
-              ],
-              [
-                240,
-                392
-              ],
-              [
-                176,
-                407
-              ],
-              [
-                139,
-                458
-              ]
-            ],
-            "type": "unrestricted_polygon"
-          },
-          {
-            "color": 0,
-            "params": [
-              [
-                475,
-                407
-              ],
-              [
-                532,
-                386
-              ],
-              [
-                590,
-                376
-              ],
-              [
-                645,
-                393
-              ],
-              [
-                673,
-                446
-              ],
-              [
-                673,
-                466
-              ],
-              [
-                645,
-                413
-              ],
-              [
-                590,
-                396
-              ],
-              [
-                532,
-                406
-              ],
-              [
-                475,
-                427
-              ]
-            ],
-            "type": "unrestricted_polygon"
-          },
-          {
-            "color": 0,
-            "params": [
-              [
-                289,
-                849
-              ],
-              [
-                329,
-                828
-              ],
-              [
-                369,
-                819
-              ],
-              [
-                405,
-                832
-              ],
-              [
-                441,
-                821
-              ],
-              [
-                479,
-                831
-              ],
-              [
-                515,
-                854
-              ],
-              [
-                478,
-                882
-              ],
-              [
-                442,
-                900
-              ],
-              [
-                404,
-                904
-              ],
-              [
-                365,
-                899
-              ],
-              [
-                328,
-                881
-              ]
-            ],
-            "type": "unrestricted_polygon"
-          },
-          {
-            "color": 0,
-            "params": [
-              [
-                74,
-                -825
-              ],
-              [
-                777,
-                -811
-              ],
-              [
-                749,
-                608
-              ],
-              [
-                46,
-                594
-              ]
-            ],
-            "type": "polygon"
-          },
-          {
-            "color": 0,
-            "params": [
-              [
-                468,
-                519
-              ],
-              [
-                368,
-                517
-              ],
-              [
-                283,
-                722
-              ],
-              [
-                333,
-                743
-              ],
-              [
-                407,
-                766
-              ],
-              [
-                483,
-                745
-              ],
-              [
-                533,
-                726
-              ],
-              [
-                468,
-                519
-              ]
-            ],
-            "type": "polygon"
-          },
-          {
-            "color": 0,
-            "params": [
-              [
-                145,
-                130
-              ],
-              [
-                126,
-                1084
-              ],
-              [
-                36,
-                1082
-              ],
-              [
-                55,
-                129
-              ]
-            ],
-            "type": "polygon"
-          },
-          {
-            "color": 0,
-            "params": [
-              [
-                679,
-                141
-              ],
-              [
-                758,
-                143
-              ],
-              [
-                739,
-                1096
-              ],
-              [
-                660,
-                1095
-              ]
-            ],
-            "type": "polygon"
-          },
-          {
-            "color": 0,
-            "params": [
-              [
-                424,
-                136
-              ],
-              [
-                405,
-                1090
-              ],
-              [
-                36,
-                1082
-              ],
-              [
-                55,
-                129
-              ]
-            ],
-            "type": "polygon"
-          },
-          {
-            "color": 0,
-            "params": [
-              [
-                36,
-                1082
-              ],
-              [
-                38,
-                972
-              ],
-              [
-                297,
-                724
-              ],
-              [
-                522,
-                728
-              ],
-              [
-                742,
-                957
-              ],
-              [
-                739,
-                1096
-              ]
-            ],
-            "type": "unrestricted_polygon"
+          "price_group": "standard",
+          "id": "CopyOf_2307568",
+          "parent_id": "CopyOf_xlsImpprod14521333",
+          "image": "https://d38knilzwtuys1.cloudfront.net/revieve-plugin/productImages/jPsyFu6n6Z.jpeg",
+          "extra_attrs": 5,
+          "custom_data": {
+            "rating": "4.2",
+            "promotion": "3 for 2"
           }
-        ]
+        },
+        "Sunscreen": {
+          "name": "Broad Spectrum SPF 30 Mineral Sunscreen Fluid For Face",
+          "category": "Sunscreen",
+          "manufacturer": "Clinique",
+          "description": "Broad Spectrum SPF 30 Mineral Sunscreen Fluid For Face - Clinique's Broad Spectrum SPF 30 Mineral Sunscreen Fluid For Face is an ultra-lightweight, virtually invisible 100% mineral sunscreen that is incredibly comfortable, even for sensitive skins. Gentle enough to use around the eye area, too. Invisible Shield Technology forms a protective veil that's virtually invisible on all skin tones.Clinique Clean Philosophy:No parabensNo phthalatesNo fragranceJust happy skinWhat else is this product free of?Oil FreeFree of Denatured AlcoholFree of Synthetic ColoursSLS FreeSLES FreeSulfate Free - Broad Spectrum SPF 30 Mineral Sunscreen Fluid For Face",
+          "price": 28.5,
+          "url": "http://www.revieve.com",
+          "score": 0.53,
+          "filter_match": [
+            "normal_skin_ui"
+          ],
+          "price_group": "standard",
+          "id": "CopyOf_2303848",
+          "parent_id": "CopyOf_xlsImpprod14171055",
+          "image": "https://d38knilzwtuys1.cloudfront.net/revieve-plugin/productImages/UJ6XlBQXUT.jpeg",
+          "extra_attrs": 6
+        },
+        "Night Cream": {
+          "name": "Absolutely Ageless Restoring Night Cream",
+          "category": "Night Cream",
+          "manufacturer": "Aveeno",
+          "description": "Absolutely Ageless Restoring Night Cream - Aveeno Absolutely Ageless Restorative Night Cream works through the night to nourish and reveal younger and healthier-looking skin over time. This rich hydrating cream contains the exclusive Active Naturals Blackberry Complex and is clinically proven to:improve appearance of fine lines and wrinklesdeeply nourish dry skin throughout the nighthelp you awaken to softer, smoother, younger-looking skinhelp improve skin elasticitystrengthen skin's natural moisture barrier to maintain healthier-looking skin over timeHypo-AllergenicNon-Comedogenic (Won't clog pores) - Absolutely Ageless Restoring Night Cream",
+          "price": 25.99,
+          "url": "http://www.revieve.com",
+          "score": 0.53,
+          "filter_match": [
+            "normal_skin_ui"
+          ],
+          "price_group": "standard",
+          "id": "CopyOf_2298316",
+          "parent_id": "CopyOf_xlsImpprod13762045",
+          "image": "https://d38knilzwtuys1.cloudfront.net/revieve-plugin/productImages/ssLDQOAxmA.jpeg",
+          "extra_attrs": 7,
+          "custom_data": {
+            "rating": "4.8",
+            "promotion": "3 for 2"
+          }
+        }
       },
-      "measures": [
-        {
-          "description": "area",
-          "value": 0.001863008921432897,
-          "value_raw": 0.002589455814244161
+      "economy": {
+        "Moisturizer": {
+          "name": "Facial Radiance Illuminating Moisturizer",
+          "category": "Moisturizer",
+          "manufacturer": "First Aid Beauty",
+          "description": "Facial Radiance Illuminating Moisturizer - Facial Radiance Illuminating Moisturizer has a modern gel-cream formulation, that is packed with active ingredients that deliver long-term, skin brightening benefits. Enriched with sodium hyaluronate, a new smaller molecule form of hyaluronic acid, the formulation helps hydrate, plump and smooth. Gatuline radiance and chromabright actively work to help visibly brighten the skin and produce a more even looking skin tone over time. - Facial Radiance Illuminating Moisturizer",
+          "price": 16.97,
+          "url": "http://www.revieve.com",
+          "score": 0.743,
+          "filter_match": [
+            "dull_skin_cv",
+            "hyperpigmentation_cv",
+            "uneven_skintone_cv",
+            "dull_tired_ui",
+            "smoothness_cv",
+            "normal_skin_ui"
+          ],
+          "price_group": "economy",
+          "id": "CopyOf_2500755",
+          "parent_id": "CopyOf_xlsImpprod15001031",
+          "image": "https://d38knilzwtuys1.cloudfront.net/revieve-plugin/productImages/gBBA1Sd3Nf.jpeg",
+          "extra_attrs": 6
         },
-        {
-          "description": "spot",
-          "value": 0.011326287021240047,
-          "value_raw": 0.0030587776102816207
+        "Cleanser": {
+          "name": "Glycolic Foaming Cleanser",
+          "category": "Cleanser",
+          "manufacturer": "Mario Badescu",
+          "description": "Glycolic Foaming Cleanser - Exfoliate up to three times a week with Mario Badescu's foaming glycolic acid-based cleanser designed to dissolve dulling dead skin cells, to help refine pores and retexturize uneven skin. Fine lines, wrinkes, old acne marks, and age spots are diminished with regular use-encouraging a smoother, more youtful-looking complexion. A soothing blend of chamomile, marshmellow, sage, St. John's wort, and yarrow extracts provide additional rejuvenating benefits that help re-balance and leave skin radiant. Use as a supplemental cleanser. - Glycolic Foaming Cleanser",
+          "price": 16,
+          "url": "http://www.revieve.com",
+          "score": 0.743,
+          "filter_match": [
+            "dull_skin_cv",
+            "hyperpigmentation_cv",
+            "uneven_skintone_cv",
+            "dull_tired_ui",
+            "smoothness_cv",
+            "normal_skin_ui"
+          ],
+          "price_group": "economy",
+          "id": "CopyOf_2209926",
+          "parent_id": "CopyOf_xlsImpprod6200753",
+          "image": "https://d38knilzwtuys1.cloudfront.net/revieve-plugin/productImages/cYWcoWtoug.jpeg",
+          "extra_attrs": 8,
+          "custom_data": {
+            "size": "6.0 oz"
+          }
+        },
+        "Eye Cream": {
+          "name": "Eye Refresh",
+          "category": "Eye Cream",
+          "manufacturer": "e.l.f. Cosmetics",
+          "description": "Eye Refresh - The cooling sensation of the e.l.f. Cosmetics Eye Refresh rollerball brightens and refreshes the eye area to help alleviate under eye puffiness and dark circles. Infused with key ingredients pomegranate, rosemary, green tea, cucumber and grape to hydrate and nourish the delicate skin around your eyes. Perfect for portable on-the-spot treatment to awaken the skin throughout the day for a little pick-me-up. Eye Refresh is great for men too! Cruelty free and vegan. - Eye Refresh",
+          "price": 4,
+          "url": "http://www.revieve.com",
+          "score": 0.742,
+          "filter_match": [
+            "dull_skin_cv",
+            "dark_circle_cv",
+            "dull_tired_ui",
+            "smoothness_cv",
+            "normal_skin_ui"
+          ],
+          "price_group": "economy",
+          "id": "CopyOf_2500552",
+          "parent_id": "CopyOf_xlsImpprod14521231",
+          "image": "https://d38knilzwtuys1.cloudfront.net/revieve-plugin/productImages/u3HH4qq9X7.jpeg",
+          "extra_attrs": 6
+        },
+        "Exfoliator": {
+          "name": "Extra Gentle Daily Scrub",
+          "category": "Exfoliator",
+          "manufacturer": "Cetaphil",
+          "description": "Extra Gentle Daily Scrub - Cetaphil Extra Gentle Daily Scrub is a gentle facial cleanser that removes dirt, oil and impurities while micro-fine granules buff away dry, dull skin to support natural surface cell turnover. Infused with skin conditioners and a vitamin complex, it leaves skin feeling soft, smooth and radiant. This cleanser is dermatologist tested and is clinically shown to be non-irritating, hypoallergenic and non-comedogenic.Benefits:Gently exfoliates to reveal radiant looking skin: Cetaphil Extra Gentle Daily Scrub gently buffs away dry, dull skin while cleansing to support natural surface cell turnover. The result is improved skin texture to reveal healthy glowing skinCleanses without over-drying to soften and smooth: Infused with skin conditioners and a vitamin complex, it cleanses without over-drying to leave skin feeling soft, smooth and radiantDesigned for daily use: Specially formulated with micro-fine granules to be gentle enough for everyday use, even on sensitive skinNon-irritating & non-comedogenic: This gentle facial scrub is non-irritating and non-comedogenic so it won't clog pores or irritate sensitive skinDermatologist tested & sensitive skin approved: Like all Cetaphil cleansers, this product has been tested by dermatologists and is clinically shown to be gentle on sensitive skin. - Extra Gentle Daily Scrub",
+          "price": 9.99,
+          "url": "http://www.revieve.com",
+          "score": 0.713,
+          "filter_match": [
+            "dull_skin_cv",
+            "dull_tired_ui",
+            "smoothness_cv",
+            "normal_skin_ui"
+          ],
+          "price_group": "economy",
+          "id": "CopyOf_2523343",
+          "parent_id": "CopyOf_xlsImpprod17762037",
+          "image": "https://d38knilzwtuys1.cloudfront.net/revieve-plugin/productImages/K90xtYF6SP.jpeg",
+          "extra_attrs": 6
+        },
+        "Sheet Mask": {
+          "name": "Master Lab Vitamin C Brightening Mask",
+          "category": "Sheet Mask",
+          "manufacturer": "TONYMOLY",
+          "description": "Master Lab Vitamin C Brightening Mask - Tony Moly Master Lab Vitamin C Brightening Mask is a water type ampoule consistency and makes skin healthy by providing radiance and nourishment. It uses the nude seal fabric - a new material made of natural cellulose with silky soft texture and an excellent absorption & adherence function better than cotton - to closely adhere to skin and effectively deliver active ingredients to make it healthy by providing radiance and nourishment. - Master Lab Vitamin C Brightening Mask",
+          "price": 4,
+          "url": "http://www.revieve.com",
+          "score": 0.713,
+          "filter_match": [
+            "dull_skin_cv",
+            "dull_tired_ui",
+            "smoothness_cv",
+            "normal_skin_ui"
+          ],
+          "price_group": "economy",
+          "id": "CopyOf_2503091",
+          "parent_id": "CopyOf_xlsImpprod15622755",
+          "image": "https://d38knilzwtuys1.cloudfront.net/revieve-plugin/productImages/5tLHMfEWa1.jpeg",
+          "extra_attrs": 6
+        },
+        "Face Mask": {
+          "name": "Azulene Calming Mask",
+          "category": "Face Mask",
+          "manufacturer": "Mario Badescu",
+          "description": "Azulene Calming Mask - Mario Badescu's Azulene Calming Mask is a gentle, clay-based mask specially formulated to help comfort and re-balance skin, making this a must-have for aestheticians and makeup artists worldwide. It's infused with Olive Leaf Extract, Evening Primrose, and Vitamin E to deliver antioxidant-rich hydration as natural minerals (like Kaolin) lightly draw impurities from the skin.#MBSKINTIP: Keep a jar on hand in case your complexion needs a soothing boost. Simply apply to clean skin and leave on for 15-20 minutes and rinse well. Follow with a gentle, non-irritating toner. - Azulene Calming Mask",
+          "price": 18,
+          "url": "http://www.revieve.com",
+          "score": 0.53,
+          "filter_match": [
+            "normal_skin_ui"
+          ],
+          "price_group": "economy",
+          "id": "CopyOf_2530228",
+          "parent_id": "CopyOf_xlsImpprod18881011",
+          "image": "https://d38knilzwtuys1.cloudfront.net/revieve-plugin/productImages/VcW0oIFNRV.jpeg",
+          "extra_attrs": 5
+        },
+        "Toner": {
+          "name": "Alcohol-Free Witch Hazel Facial Toner",
+          "category": "Toner",
+          "manufacturer": "Thayers",
+          "description": "Alcohol-Free Witch Hazel Facial Toner - Thayers Alcohol-Free Witch Hazel Toner is formulated with aloe vera and witch hazel extract in order to soothe and naturally cleanse the skin.Cucumber Toner Benefits:  Formulated with vitamin C Reduces puffiness and irritationAntioxidants diminish clogged pores - Alcohol-Free Witch Hazel Facial Toner",
+          "price": 10.95,
+          "url": "http://www.revieve.com",
+          "score": 0.53,
+          "filter_match": [
+            "normal_skin_ui"
+          ],
+          "price_group": "economy",
+          "id": "CopyOf_2540959",
+          "parent_id": "CopyOf_pimprod2006476",
+          "image": "https://d38knilzwtuys1.cloudfront.net/revieve-plugin/productImages/12ehQf0QPm.jpeg",
+          "extra_attrs": 5
+        },
+        "Serum": {
+          "name": "Hydrating Hyaluronic Acid Face Serum",
+          "category": "Serum",
+          "manufacturer": "CeraVe",
+          "description": "Hydrating Hyaluronic Acid Face Serum - Developed with dermatologists, CeraVe Hydrating Hyaluronic Acid Face Serum is a refreshing gel-cream formula with 3 essential ceramides, their highest concentration of hyaluronic acid, and vitamin B5 replenishes skin hydration while helping restore the protective skin barrier and improve the appearance of dry lines for instantly smoother, softer skin.  Key Ingredients:  Ceramides 1, 3 and 6-II - hydrate and help restore the protective skin barrier Hyaluronic Acid - helps retain skin's moisture Vitamin B5 - replenishes skin hydrationBenefits:Non-comedogenic Paraben-free Fragrance-free#1 Dermatologist Recommended Skincare Brand  - Hydrating Hyaluronic Acid Face Serum",
+          "price": 18.99,
+          "url": "http://www.revieve.com",
+          "score": 0.53,
+          "filter_match": [
+            "normal_skin_ui"
+          ],
+          "price_group": "economy",
+          "id": "CopyOf_2540675",
+          "parent_id": "CopyOf_pimprod2002096",
+          "image": "https://d38knilzwtuys1.cloudfront.net/revieve-plugin/productImages/4auMGqvLdv.jpeg",
+          "extra_attrs": 9
+        },
+        "Sunscreen": {
+          "name": "Mineral Sunscreen Lotion SPF 50 Face Lotion with Zinc Oxide",
+          "category": "Sunscreen",
+          "manufacturer": "CeraVe",
+          "description": "Mineral Sunscreen Lotion SPF 50 Face Lotion with Zinc Oxide - Developed with Dermatologists, CeraVe Mineral Sunscreen Lotion SPF 50 Face Lotion with Zinc Oxide provides broad spectrum protection with 100% mineral sunscreen that help reflect the sun's damaging UVA/UVB rays. The face sunscreen is chemical-free and formulated with three essential ceramides that help restore the skin's natural barrier and lock in moisture long after.  Highlights:  100% mineral sunscreen without oxybenzone Zinc oxide &amp; Titanium dioxide sunscreen filters Ceramides 1, 3 and 6-II Hyaluronic Acid Niacinamide  Fragrance-free Paraben-free Oil-free Chemical-filter free  - Mineral Sunscreen Lotion SPF 50 Face Lotion with Zinc Oxide",
+          "price": 15.99,
+          "url": "http://www.revieve.com",
+          "score": 0.53,
+          "filter_match": [
+            "normal_skin_ui"
+          ],
+          "price_group": "economy",
+          "id": "CopyOf_2540955",
+          "parent_id": "CopyOf_pimprod2003660",
+          "image": "https://d38knilzwtuys1.cloudfront.net/revieve-plugin/productImages/nlNkBz6OWI.jpeg",
+          "extra_attrs": 11
         }
-      ],
-      "value": 0.04466568730879246,
-      "value_raw": 0.0030587776102816207,
-      "visualization_data": [
-        {
-          "intensity": [
-            6.223171000834782
+      },
+      "highend": {
+        "Serum": {
+          "name": "PowerBright TRx C-12 Pure Bright Serum",
+          "category": "Serum",
+          "manufacturer": "Dermalogica",
+          "description": "PowerBright TRx C-12 Pure Bright Serum - Dermalogica's PowerBright TRx C-12 Pure Bright Serum is a potent skin-brightening serum that helps combat hyperpigmentation and balance skin tone. Apply this lightweight, highly-active topical treatment morning and night after cleansing to help address pigmentation imbalance and minimize discoloration. Patented oligopeptides, rice-derived phytic acid, antioxidant zinc glycinate, and red and brown algae help control melanin formation to treat and prevent hyperpigmentation. Advanced formula absorbs quickly to optimize efficacy while helping to increase luminosity. Skin is left healthier-looking with a velvety-soft finish. We recommend that first-time Dermalogica users visit an authorized skin treatment professional for a client consultation in an ULTA store.View Dermalogica skin treatments at all ULTA locations. Book your appointment today - PowerBright TRx C-12 Pure Bright Serum",
+          "price": 99,
+          "url": "http://www.revieve.com",
+          "score": 0.743,
+          "filter_match": [
+            "dull_skin_cv",
+            "hyperpigmentation_cv",
+            "uneven_skintone_cv",
+            "dull_tired_ui",
+            "smoothness_cv",
+            "normal_skin_ui"
           ],
-          "length": 1,
-          "length_weighted_intensity": 0.7778963751043477,
-          "mean_intensity": 6.223171000834782,
-          "median_intensity": 6.223171000834782,
-          "x": [
-            611
-          ],
-          "y": [
-            652
-          ]
+          "price_group": "highend",
+          "id": "CopyOf_2281032",
+          "parent_id": "CopyOf_xlsImpprod11271055",
+          "image": "https://d38knilzwtuys1.cloudfront.net/revieve-plugin/productImages/uS8mkOVzUw.jpeg",
+          "extra_attrs": 9
         },
-        {
-          "intensity": [
-            2.4878093305314906
+        "Exfoliator": {
+          "name": "Daily Microfoliant - 75g",
+          "category": "Exfoliator",
+          "manufacturer": "Dermalogica",
+          "description": "Daily Microfoliant - Polish away dull uneven texture and achieve brighter, silky-soft skin with Dermalogica's holy grail - Daily Microfoliant. This rice-based enzyme powder activates with a splash of water and gently micro-exfoliates dead skin cells. A super-soothing blend of green tea, ginkgo, and colloidal oatmeal calms inflammation, while mild salicylic acid helps clean clogged pores. This vegan and cruelty-free formula is gentle enough to use daily.  Skin Concerns:  Pores Fine Lines and Wrinkles Dullness and Uneven Texture   Key Ingredients:  Salicylic Acid: Clears impurities from skin  Colloidal Oatmeal: Helps calm skin Tea Tree Oil: Helps keep skin clear  Key Callouts  This product is:  cruelty-free vegan paraben-free sulfate-free phthalate-free synthetic fragrance-free has recyclable packaging Have questions about your skin? Click here to get a professional skin analysis with Dermalogica's AI driven technology, Face Mapping.  We recommend that first-time Dermalogica users visit an authorized skin treatment professional for a client consultation in an ULTA store.  View Dermalogica skin treatments at all ULTA locations. Book your appointment today.  -Dermalogica Daily Microfoliant - 75g",
+          "price": 59,
+          "url": "http://www.revieve.com",
+          "score": 0.743,
+          "filter_match": [
+            "dull_skin_cv",
+            "hyperpigmentation_cv",
+            "uneven_skintone_cv",
+            "dull_tired_ui",
+            "smoothness_cv",
+            "normal_skin_ui"
           ],
-          "length": 1,
-          "length_weighted_intensity": 0.3109761663164363,
-          "mean_intensity": 2.4878093305314906,
-          "median_intensity": 2.4878093305314906,
-          "x": [
-            553
-          ],
-          "y": [
-            654
-          ]
+          "price_group": "highend",
+          "id": "CopyOf_2152621",
+          "parent_id": "CopyOf_prod2152621",
+          "image": "https://d38knilzwtuys1.cloudfront.net/revieve-plugin/productImages/mKh4dCFxsT.jpeg",
+          "extra_attrs": 12
         },
-        {
-          "intensity": [
-            23.145930806353135
+        "Eye Cream": {
+          "name": "Even Better Eyes Dark Circle Corrector",
+          "category": "Eye Cream",
+          "manufacturer": "Clinique",
+          "description": "Even Better Eyes Dark Circle Corrector - Clinique Even Better Eyes Dark Circle Corrector instantly brightens all skin tones. Cooling metal tip helps massage away puffs.Clinique Clean Philosophy:No parabensNo phthalatesNo fragranceJust happy skinWhat else is this product free of?Oil FreeFree of Denatured AlcoholFree of Synthetic ColoursSLS FreeSLES FreeSulfate FreeFormula Facts:Allergy TestedOphthalmologist testedAppropriate for contact lens wearersFor all skin types - Even Better Eyes Dark Circle Corrector",
+          "price": 42,
+          "url": "http://www.revieve.com",
+          "score": 0.742,
+          "filter_match": [
+            "dull_skin_cv",
+            "dark_circle_cv",
+            "dull_tired_ui",
+            "smoothness_cv",
+            "normal_skin_ui"
           ],
-          "length": 1,
-          "length_weighted_intensity": 2.893241350794142,
-          "mean_intensity": 23.145930806353135,
-          "median_intensity": 23.145930806353135,
-          "x": [
-            618
-          ],
-          "y": [
-            726
-          ]
+          "price_group": "highend",
+          "id": "CopyOf_2248010",
+          "parent_id": "CopyOf_xlsImpprod10791809",
+          "image": "https://d38knilzwtuys1.cloudfront.net/revieve-plugin/productImages/KfofNsg3UO.jpeg",
+          "extra_attrs": 5
         },
-        {
-          "intensity": [
-            66.9254177870207
+        "Moisturizer": {
+          "name": "Wrinkle Revenge Rescue & Protect Facial Cream",
+          "category": "Moisturizer",
+          "manufacturer": "Dermadoctor",
+          "description": "Wrinkle Revenge Rescue & Protect Facial Cream - This lightweight concentrate delivers rejuvenating peptides, antioxidants, protective ceramide 2 and an advanced hydrating complex. Helps improve the appearance of the visible signs of aging and leaves skin feeling fabulous.Can be incorporated into all skincare regimens. Ideal for all skin types. Dermatologist tested &amp; approved, allergy tested, hypoallergenic, non irritating, non comedogenic, fragrance free, dye free, gluten free, phthalate free, no animal testing. - Wrinkle Revenge Rescue & Protect Facial Cream",
+          "price": 58,
+          "url": "http://www.revieve.com",
+          "score": 0.713,
+          "filter_match": [
+            "dull_skin_cv",
+            "dull_tired_ui",
+            "smoothness_cv",
+            "normal_skin_ui"
           ],
-          "length": 1,
-          "length_weighted_intensity": 8.365677223377588,
-          "mean_intensity": 66.9254177870207,
-          "median_intensity": 66.9254177870207,
-          "x": [
-            594
-          ],
-          "y": [
-            751
-          ]
+          "price_group": "highend",
+          "id": "CopyOf_2161577",
+          "parent_id": "CopyOf_xlsImpprod700196",
+          "image": "https://d38knilzwtuys1.cloudfront.net/revieve-plugin/productImages/nuNYE6Vi1w.jpeg",
+          "extra_attrs": 14
         },
-        {
-          "intensity": [
-            3.6976845504113953
+        "Toner": {
+          "name": "Multi-Active Toner - 8.4oz",
+          "category": "Toner",
+          "manufacturer": "Dermalogica",
+          "description": "Multi-Active Toner - Spritz on critical hydration with this refreshing blend of skin-repairing Aloe, moisture-binding humectants plus soothing Lavender, Balm Mint and Arnica. Contains no artificial fragrance or color. Professional recommendation advised.  How it works:  Lavender Extract, a natural antiseptic, soothes and purifies the skin. Balm Mint and Aloe Vera cool and soften the skin. Extracts of Arnica and Cucumber, natural skin fresheners, help condition skin. Moisture-binding proteins act as humectants to allow for more effective moisture absorption.   Have questions about your skin? Click here to get a professional skin analysis with Dermalogica's AI driven technology, Face Mapping.  We recommend that first-time Dermalogica users visit an authorized skin treatment professional for a client consultation in an ULTA store.  View Dermalogica skin treatments at all ULTA locations. Book your appointment today.-Dermalogica Multi-Active Toner - 8.4oz",
+          "price": 41,
+          "url": "http://www.revieve.com",
+          "score": 0.619,
+          "filter_match": [
+            "smoothness_cv",
+            "texture_cv",
+            "normal_skin_ui"
           ],
-          "length": 1,
-          "length_weighted_intensity": 0.4622105688014244,
-          "mean_intensity": 3.6976845504113953,
-          "median_intensity": 3.6976845504113953,
-          "x": [
-            580
+          "price_group": "highend",
+          "id": "CopyOf_2152653",
+          "parent_id": "CopyOf_prod2152653",
+          "image": "https://d38knilzwtuys1.cloudfront.net/revieve-plugin/productImages/5wDwdm8vDE.jpeg",
+          "extra_attrs": 6
+        },
+        "Cleanser": {
+          "name": "Advanced Night Micro Cleansing Balm",
+          "category": "Cleanser",
+          "manufacturer": "Estee Lauder",
+          "description": "Advanced Night Micro Cleansing Balm - Micro-purifying. Micro-revitalizing. This lightweight balm melts into a silky cleansing oil as you massage over skin, then transforms with water into a milky emulsion that rinses easily for a clean, conditioned feel. Removes makeup and impurities, including pollution, as it purifies deep within skin's surface to improve your overall healthy look.Ideal For:Gentle daily cleansingMakeup removal - Advanced Night Micro Cleansing Balm",
+          "price": 47,
+          "url": "http://www.revieve.com",
+          "score": 0.53,
+          "filter_match": [
+            "normal_skin_ui"
           ],
-          "y": [
-            785
-          ]
+          "price_group": "highend",
+          "id": "CopyOf_2309326",
+          "parent_id": "CopyOf_xlsImpprod14641467",
+          "image": "https://d38knilzwtuys1.cloudfront.net/revieve-plugin/productImages/WFKPy7xh19.jpeg",
+          "extra_attrs": 5
+        },
+        "Night Cream": {
+          "name": "Turnaround Overnight Revitalizing Moisturizer",
+          "category": "Night Cream",
+          "manufacturer": "Clinique",
+          "description": "Turnaround Overnight Revitalizing Moisturizer - Clinique's Turnaround Ovenight Revitalizing Moisturizer is a revitalizing moisture cream that literally works overnight to reveal more luminous skin. It delivers the energy infusion that skin needs to optimize nighttime renewal, and gently clears the dulling effects of time and sun damage, nourishing with moisture.Solutions For:Dullness and uneven textureDrynessClinique Clean Philosophy:No parabensNo phthalatesNo fragranceJust happy skinWhat else is this product free of?Oil FreeFree of Denatured AlcoholFree of Synthetic ColoursSLS FreeSLES FreeSulfate FreeFormula Facts:Allergy TestedNon-AcnegenicFor all skin types - Turnaround Overnight Revitalizing Moisturizer",
+          "price": 42,
+          "url": "http://www.revieve.com",
+          "score": 0.53,
+          "filter_match": [
+            "normal_skin_ui"
+          ],
+          "price_group": "highend",
+          "id": "CopyOf_2287175",
+          "parent_id": "CopyOf_xlsImpprod12221031",
+          "image": "https://d38knilzwtuys1.cloudfront.net/revieve-plugin/productImages/QIFPRSyVgr.jpeg",
+          "extra_attrs": 5
+        },
+        "Face Mask": {
+          "name": "Skin Hydrating Masque",
+          "category": "Face Mask",
+          "manufacturer": "Dermalogica",
+          "description": "Skin Hydrating Masque - Dermalogica's Skin Hydrating Masque is a hydrating, oil-free gel mask that restores critical moisture to dry skin without unwanted oiliness, helping to restore suppleness and reduce the appearance of fine, dry lines. Calming botanical extracts of Bitter Orange, Hops, Cucumber and Arnica reduce inflammation, while antioxidant Vitamins A, C and E and Pro-Vitamin B5 help to nourish and replenish the skin. Excellent for the delicate eye area. Contains no artificial fragrance or color. Professional recommendation advised.  Key Ingredients &amp; Benefits:  Botanical extracts of Bitter Orange, Hops, Cucumber and Arnica reduce inflammation Antioxidant Vitamins A, C and E help repair daily damage caused by free radicals Panthenol (Pro-Vitamin B5) nourishes and replenishes skin and helps promote cell regeneration   Have questions about your skin? Click here to get a professional skin analysis with Dermalogica's AI driven technology, Face Mapping.  We recommend that first-time Dermalogica users visit an authorized skin treatment professional for a client consultation in an ULTA store.  View Dermalogica skin treatments at all ULTA locations. Book your appointment today. - Skin Hydrating Masque",
+          "price": 45,
+          "url": "http://www.revieve.com",
+          "score": 0.53,
+          "filter_match": [
+            "normal_skin_ui"
+          ],
+          "price_group": "highend",
+          "id": "CopyOf_2152610",
+          "parent_id": "CopyOf_prod2152610",
+          "image": "https://d38knilzwtuys1.cloudfront.net/revieve-plugin/productImages/vj6L4Ez76t.jpeg",
+          "extra_attrs": 9
         }
-      ]
+      }
     },
-    {
-      "AOI_radius_o": 0,
-      "AOI_x_o": 55,
-      "AOI_y_o": 129,
-      "description": "left lower face",
-      "mask_shapes": null,
-      "measures": [
-        {
-          "description": "area",
-          "value": -1,
-          "value_raw": -1
-        },
-        {
-          "description": "spot",
-          "value": -1,
-          "value_raw": -1
-        }
+    "variables": {
+      "partner_id": "9KpsLizwYK",
+      "categories": [
+        "Cleanser",
+        "Micellar Water",
+        "Toner",
+        "Serum",
+        "Eye Cream",
+        "Moisturizer",
+        "Sunscreen",
+        "Exfoliator",
+        "Face Mask",
+        "Sheet Mask",
+        "Ampoules",
+        "Night Cream"
       ],
-      "value": null,
-      "value_raw": null,
-      "visualization_data": null
-    }
-  ],
-  "message": "Ok",
-  "sum_measures": [
-    {
-      "description": "area",
-      "value": 0.47964589235541366,
-      "value_raw": 0.36118035041477575
+      "age_ui": 21,
+      "gender_ui": "male",
+      "lat": 37.6175,
+      "lon": 126.7195,
+      "dark_circle_cv": 0.29565957,
+      "wrinkles_cv": 0.021401914,
+      "eyebags_cv": 0.022228131,
+      "redness_cv": 0.08543257,
+      "smoothness_cv": 0.8047565,
+      "texture_cv": 0.10036422,
+      "hyperpigmentation_cv": 0.01150839,
+      "dull_skin_cv": 0.43458167,
+      "radiance_cv": 0.7220762,
+      "skin_shine_cv": 0.3196979,
+      "uneven_skintone_cv": 0.19524346,
+      "melasma_cv": 0.010940912,
+      "dark_spots_cv": 0.01150839,
+      "freckles_cv": 0.001029263,
+      "skin_sagging_cv": 0.029757995,
+      "dull_tired_ui": 1,
+      "normal_skin_ui": 1,
+      "min_price": 1,
+      "max_price": 8000,
+      "uv_index": 3,
+      "humidity": 66.14,
+      "pollution": 87,
+      "feelslike_c": -1.71
     },
-    {
-      "description": "spot",
-      "value": 0.6969511100915932,
-      "value_raw": 0.10034274863379902
-    }
-  ],
-  "value": 0.6969511100915932,
-  "value_raw": 0.3109902844975968,
-  "visualization_data": null
+    "history_id": "7YoAS8cf5j"
+  }
 }

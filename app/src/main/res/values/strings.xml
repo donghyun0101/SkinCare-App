@@ -4,9 +4,7 @@
     <string name="page_start_start">Get Started</string>
     <string name="page_start_info">Build Skin Profile\nTake Selfie\nSee Skin Analysis\nGet Personal Advice\nGet Product Recommendations</string>
 
-    <string name="page_skintype_what">what&#160;</string>
-    <string name="page_skintype_isyour">is your</string>
-    <string name="page_skintype_skintype">Skin type?</string>
+    <string name="page_skintype_question">what is your\nSkin type?</string>
     <string name="page_skintype_normal">Normal</string>
     <string name="page_skintype_dry">Dry</string>
     <string name="page_skintype_oily">Oily</string>
@@ -23,7 +21,7 @@
     <string name="page_findskin_question2">Pore size is too large.</string>
     <string name="page_findskin_question3">Pore size is normal.</string>
     <string name="page_findskin_question4">Pore size is partially different.</string>
-    <string name="page_findskin_question5">5</string>
+    <string name="page_findskin_question5">There are many wrinkles around the eyes and mouth.</string>
     <string name="page_findskin_question6">6</string>
     <string name="page_findskin_question7">7</string>
     <string name="page_findskin_question8">8</string>
