@@ -2,7 +2,8 @@
     <string name="app_name">SkinCare</string>
 
     <string name="page_start_start">Get Started</string>
-    <string name="page_start_info">Build Skin Profile\nTake Selfie\nSee Skin Analysis\nGet Personal Advice\nGet Product Recommendations</string>
+    <string name="page_start_info">Build Skin Profile\nTake Selfie\nSee Skin Analysis</string>
+    <string name="page_start_info_backup">Build Skin Profile\nTake Selfie\nSee Skin Analysis\nGet Personal Advice\nGet Product Recommendations</string>
 
     <string name="page_skintype_question">what is your\nSkin type?</string>
     <string name="page_skintype_normal">Normal</string>
@@ -12,43 +13,38 @@
     <string name="page_skintype_combination">Combination</string>
     <string name="page_skintype_null">I don\'t know</string>
 
-    <string name="page_findskin_let">let&#160;</string>
-    <string name="page_findskin_ushelpidentify">us help identify</string>
-    <string name="page_findskin_youskintype">Your Skin Type</string>
-
+    <string name="page_findskin_question">let us help identify\nYour Skin Type</string>
     <string name="page_findskin_question0">Pore size is not large.</string>
     <string name="page_findskin_question1">Pore size is too small.</string>
     <string name="page_findskin_question2">Pore size is too large.</string>
     <string name="page_findskin_question3">Pore size is normal.</string>
     <string name="page_findskin_question4">Pore size is partially different.</string>
-    <string name="page_findskin_question5">There are many wrinkles around the eyes and mouth.</string>
-    <string name="page_findskin_question6">6</string>
-    <string name="page_findskin_question7">7</string>
-    <string name="page_findskin_question8">8</string>
-    <string name="page_findskin_question9">9</string>
-    <string name="page_findskin_question10">10</string>
-    <string name="page_findskin_question11">11</string>
-    <string name="page_findskin_question12">12</string>
-    <string name="page_findskin_question13">13</string>
-    <string name="page_findskin_question14">14</string>
-    <string name="page_findskin_question15">15</string>
-    <string name="page_findskin_question16">16</string>
-    <string name="page_findskin_question17">17</string>
-    <string name="page_findskin_question18">18</string>
-    <string name="page_findskin_question19">19</string>
-    <string name="page_findskin_question20">20</string>
-    <string name="page_findskin_question21">21</string>
-    <string name="page_findskin_question22">22</string>
-    <string name="page_findskin_question23">23</string>
-    <string name="page_findskin_question24">24</string>
+    <string name="page_findskin_question5">Fine wrinkles around the eyes and mouth.</string>
+    <string name="page_findskin_question6">The skin pulls in winter and oil is high in summer.</string>
+    <string name="page_findskin_question7">Thick skin and excess sebum secretion.</string>
+    <string name="page_findskin_question8">Dull and glossless skin.</string>
+    <string name="page_findskin_question9">The face often turns red.</string>
+    <string name="page_findskin_question10">Have a bright skin tone.</string>
+    <string name="page_findskin_question11">Skin troubles occur between seasons.</string>
+    <string name="page_findskin_question12">The skin tone is dark.</string>
+    <string name="page_findskin_question13">Dry after cleansing and oily T zone.</string>
+    <string name="page_findskin_question14">A dry face.</string>
+    <string name="page_findskin_question15">Glossless skin.</string>
+    <string name="page_findskin_question16">Good skin for your age.</string>
+    <string name="page_findskin_question17">Make-up gets patchy and oily.</string>
+    <string name="page_findskin_question18">Make-up gets patchy only in the T zone.</string>
+    <string name="page_findskin_question19">Get skin trouble when tired.</string>
+    <string name="page_findskin_question20">Whole dry after cleansing.</string>
+    <string name="page_findskin_question21">Makeup keeps long lasting.</string>
+    <string name="page_findskin_question22">Acne skin troubles often occur.</string>
+    <string name="page_findskin_question23">Oily face.</string>
+    <string name="page_findskin_question24">Skin trouble happens when change cosmetics or soap.</string>
 
     <string name="page_findskin_select_yes">Yes</string>
     <string name="page_findskin_select_idontknow">I don\'t know</string>
     <string name="page_findskin_select_no">No</string>
 
-    <string name="page_skinconcerns_doyou">do you&#160;</string>
-    <string name="page_skinconcerns_haveanypersonal">have any personal</string>
-    <string name="page_skinconcerns_skinconcerns">Skin concerns?</string>
+    <string name="page_skinconcerns_question">do you have\nSkin concerns?</string>
     <string name="page_skinconcerns_selectallthatapply">Select all that apply.</string>
 
     <string name="page_skinconcerns_wrinkles_and_find_lines">Wrinkles and\nfind lines</string>
@@ -60,22 +56,26 @@
     <string name="page_skinconcerns_acne">Acne</string>
     <string name="page_skinconcerns_next">Next</string>
 
-    <string name="page_gender_what">what&#160;</string>
-    <string name="page_gender_isyour">is your</string>
-    <string name="page_gender_gender">Gender?</string>
+    <string name="page_gender_question">what is your\nGender?</string>
     <string name="page_gender_woman">Woman</string>
     <string name="page_gender_man">Man</string>
     <string name="page_gender_non_binary">Non-binary</string>
     <string name="page_gender_prefer_not_to_say">Prefer not to say</string>
 
-    <string name="page_age_how">how&#160;</string>
-    <string name="page_age_oldare">old are</string>
-    <string name="page_age_you">You?</string>
+    <string name="page_age_question">how old are\nYou?</string>
     <string name="page_age_18_24">18&#8211;24</string>
     <string name="page_age_25_34">25&#8211;34</string>
     <string name="page_age_35_44">35&#8211;44</string>
     <string name="page_age_45_54">45&#8211;54</string>
     <string name="page_age_55">55+</string>
+
+    <string name="page_datacheck_question">is this information\nCorrect?</string>
+    <string name="page_datacheck_skintype">Your skin type</string>
+    <string name="page_datacheck_skinconcerns">Your skin concerns</string>
+    <string name="page_datacheck_gender">Your gender</string>
+    <string name="page_datacheck_age">Your age</string>
+    <string name="page_datacheck_ok">Yes\nGo to selfie</string>
+    <string name="page_datacheck_no">No\nGo to start over</string>
 
     <string name="page_camera_take">Take Selfie</string>
     <string name="page_camera_guide_one">Remove\nGlasses</string>
@@ -104,16 +104,6 @@
     <string name="page_dialog_daily_1m">1M</string>
     <string name="page_dialog_daily_2m">2M</string>
     <string name="page_dialog_daily_3m">3M</string>
-
-    <string name="page_datacheck_is">is&#160;</string>
-    <string name="page_datacheck_thisinformation">this information</string>
-    <string name="page_datacheck_correct">Correct?</string>
-    <string name="page_datacheck_skintype">Your skin type</string>
-    <string name="page_datacheck_skinconcerns">Your skin concerns</string>
-    <string name="page_datacheck_gender">Your gender</string>
-    <string name="page_datacheck_age">Your age</string>
-    <string name="page_datacheck_ok">Yes\nGo to selfie</string>
-    <string name="page_datacheck_no">No\nGo to start over</string>
 
     <string name="page_result_recommend">Recommend</string>
 </resources>

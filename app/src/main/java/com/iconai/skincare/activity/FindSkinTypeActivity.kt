@@ -11,12 +11,12 @@ import com.iconai.skincare.R
 
 
 class FindSkinTypeActivity : AppCompatActivity() {
-    var tvFindQuestion: TextView? = null
-    var btnFindYes: Button? = null
-    var btnFindIdontknow: Button? = null
-    var btnFindNo: Button? = null
+    private var tvFindQuestion: TextView? = null
+    private var btnFindYes: Button? = null
+    private var btnFindIdontknow: Button? = null
+    private var btnFindNo: Button? = null
 
-    var strQuestion: ArrayList<String> = arrayListOf()
+    private var strQuestion: ArrayList<String> = arrayListOf()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -25,7 +25,7 @@ class FindSkinTypeActivity : AppCompatActivity() {
         init()
     }
 
-    fun init() {
+    private fun init() {
         strQuestion = arrayListOf(
             getString(R.string.page_findskin_question0),
             getString(R.string.page_findskin_question1),

@@ -36,60 +36,31 @@
             android:gravity="center"
             android:orientation="vertical">
 
-            <LinearLayout
-                android:layout_width="match_parent"
+            <TextView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/jost700bold"
                 android:gravity="center"
-                android:orientation="horizontal">
+                android:text="@string/page_skinconcerns_question"
+                android:textColor="#ffffff"
+                android:textSize="40sp" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/jost600semi"
-                    android:text="@string/page_skinconcerns_doyou"
-                    android:textColor="#ffffff"
-                    android:textSize="25sp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/jost300light"
-                    android:text="@string/page_skinconcerns_haveanypersonal"
-                    android:textColor="#ffffff"
-                    android:textSize="25sp" />
-            </LinearLayout>
-
-            <LinearLayout
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="25dp"
                 android:gravity="center"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/jost700bold"
-                    android:text="@string/page_skinconcerns_skinconcerns"
-                    android:textColor="#ffffff"
-                    android:textSize="40sp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/jost500medium"
-                    android:text="@string/page_skinconcerns_selectallthatapply"
-                    android:textColor="#ffffff"
-                    android:textSize="17sp" />
-
-            </LinearLayout>
+                android:fontFamily="@font/jost500medium"
+                android:text="@string/page_skinconcerns_selectallthatapply"
+                android:textColor="#ffffff"
+                android:textSize="17sp" />
 
             <ScrollView
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
                 android:layout_marginTop="25dp"
                 android:scrollbarDefaultDelayBeforeFade="50000000"
-                android:scrollbarSize="3dp"
+                android:scrollbarSize="4dp"
                 android:scrollbarStyle="outsideInset"
                 android:scrollbarThumbVertical="@color/lt_gray"
                 android:scrollbarTrackVertical="@color/dk_gray">

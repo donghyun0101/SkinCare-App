@@ -37,6 +37,10 @@ class SkinTypeActivity : AppCompatActivity() {
                 snackBar!!.view.setBackgroundColor(ContextCompat.getColor(this@SkinTypeActivity, R.color.alert_blue))
                 snackBar!!.view.layoutParams = snackBarLayoutParams
                 snackBar!!.animationMode = BaseTransientBottomBar.ANIMATION_MODE_FADE
+                snackBar!!.setAction("OK") {
+                    snackBar!!.dismiss()
+                }
+                snackBar!!.setActionTextColor(getColor(R.color.white))
                 snackBar!!.show()
             }
     }
