@@ -2,13 +2,11 @@ package com.iconai.skincare.activity
 
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import android.view.View.*
 import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.iconai.skincare.R
-
 
 class FindSkinTypeActivity : AppCompatActivity() {
     private var tvFindQuestion: TextView? = null
@@ -61,7 +59,6 @@ class FindSkinTypeActivity : AppCompatActivity() {
 
         tvFindQuestion?.text = strQuestion[0]
 
-        //18,19
         btnFindYes?.setOnClickListener {
             btnFindIdontknow?.visibility = VISIBLE
             when (tvFindQuestion?.text) {

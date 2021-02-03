@@ -3,10 +3,8 @@ package com.iconai.skincare.activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.widget.Button
 import com.iconai.skincare.R
-import org.json.JSONObject
 
 class MainActivity : AppCompatActivity() {
     private var btnStart: Button? = null

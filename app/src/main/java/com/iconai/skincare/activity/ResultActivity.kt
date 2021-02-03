@@ -4,13 +4,11 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import android.graphics.*
 import android.os.Bundle
-import android.util.Log
 import android.view.MotionEvent
 import android.view.View
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
 import android.widget.*
-import androidx.annotation.IntegerRes
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.room.*
@@ -22,18 +20,14 @@ import com.github.mikephil.charting.formatter.IAxisValueFormatter
 import com.iconai.skincare.R
 import com.iconai.skincare.util.ApiData
 import kotlinx.coroutines.*
-import kotlinx.coroutines.Dispatchers.IO
 import kotlinx.coroutines.Dispatchers.Main
+import kotlinx.coroutines.Dispatchers.IO
 import org.json.JSONArray
 import org.json.JSONObject
-import java.io.BufferedReader
-import java.io.InputStream
-import java.io.InputStreamReader
 import java.text.SimpleDateFormat
 import java.util.*
 import kotlin.collections.ArrayList
 import kotlin.math.roundToInt
-
 
 class ResultActivity : AppCompatActivity(), View.OnTouchListener {
 
@@ -300,9 +294,6 @@ class ResultActivity : AppCompatActivity(), View.OnTouchListener {
                                             "dark circles" -> leftEyeDarkCircleValue = jsonEmt1Object!!.getString("value").toDouble() * 100
                                         }
                                     }
-
-                                    Log.e("leftEyeEyeBagsValue", leftEyeEyeBagsValue.toString())
-                                    Log.e("leftEyeDarkCircleValue", leftEyeDarkCircleValue.toString())
                                 }
                                 "right eye" -> {
                                     jsonEmt1Object = JSONObject(jsonEmtObject!!.getString("mask_shapes"))
@@ -330,9 +321,6 @@ class ResultActivity : AppCompatActivity(), View.OnTouchListener {
                                             "dark circles" -> rightEyeDarkCircleValue = jsonEmt1Object!!.getString("value").toDouble() * 100
                                         }
                                     }
-
-                                    Log.e("rightEyeEyeBagsValue", rightEyeEyeBagsValue.toString())
-                                    Log.e("rightEyeDarkCircleValue", rightEyeDarkCircleValue.toString())
                                 }
                             }
                         }
@@ -390,6 +378,8 @@ class ResultActivity : AppCompatActivity(), View.OnTouchListener {
 
         for (i in 0 until layoutButtonResultAnalysis.size)
             layoutButtonResultAnalysis[i].setOnClickListener {
+                for (j in 0 until layoutButtonResultAnalysis.size)
+                    layoutButtonResultAnalysis[j].isClickable = false
 
                 if (layoutButtonResultAnalysis[i].isSelected) {
                     layoutButtonResultAnalysis[i].isSelected = false
@@ -691,6 +681,9 @@ class ResultActivity : AppCompatActivity(), View.OnTouchListener {
 
                     imgResultFace?.setImageBitmap(drawBitmapValue)
                 }
+
+                for (j in 0 until layoutButtonResultAnalysis.size)
+                    layoutButtonResultAnalysis[j].isClickable = true
             }
 
         layBackDialog?.setOnTouchListener(this)
@@ -800,86 +793,106 @@ class ResultActivity : AppCompatActivity(), View.OnTouchListener {
         val userDataSet = RadarDataSet(defaultUserDataValue, null)
         val dataRadar = RadarData()
 
-        when (set) {
-            true -> {
-                defaultDataSet.apply {
-                    color = ContextCompat.getColor(this@ResultActivity, R.color.lt_blue);
-                    fillColor = ContextCompat.getColor(this@ResultActivity, R.color.lt_blue);
-                    setDrawFilled(true)
-                    fillAlpha = 180
-                    lineWidth = 0f
-                    label = null
-                    isDrawHighlightCircleEnabled = true
-                    setDrawHighlightIndicators(false)
-                }
+        CoroutineScope(Main).launch {
+            for (i in 0 until btnResultDialogDaily.size)
+                btnResultDialogDaily[i].isClickable = false
 
-                userDataSet.apply {
-                    color = ContextCompat.getColor(this@ResultActivity, R.color.lt_pink);
-                    fillColor = ContextCompat.getColor(this@ResultActivity, R.color.lt_pink);
-                    setDrawFilled(true)
-                    fillAlpha = 180
-                    lineWidth = 0f
-                    label = null
-                    isDrawHighlightCircleEnabled = true
-                    setDrawHighlightIndicators(false)
-                }
+            for (i in 0 until btnResultDialogOtherAnalysis.size)
+                btnResultDialogOtherAnalysis[i].isClickable = false
 
-                dataRadar.apply {
-                    addDataSet(defaultDataSet)
-                    addDataSet(userDataSet)
-                    setDrawValues(false)
-                }
+            btnResultDialogClose?.isClickable = false
 
-                chartToday!!.run {
-                    data = dataRadar //데이터 세팅
-                    invalidate()
+            when (set) {
+                true -> {
+                    withContext(IO) {
+                        defaultDataSet.apply {
+                            color = ContextCompat.getColor(this@ResultActivity, R.color.lt_blue);
+                            fillColor = ContextCompat.getColor(this@ResultActivity, R.color.lt_blue);
+                            setDrawFilled(true)
+                            fillAlpha = 180
+                            lineWidth = 0f
+                            label = null
+                            isDrawHighlightCircleEnabled = true
+                            setDrawHighlightIndicators(false)
+                        }
 
-                    description.isEnabled = false //Description 안보이게 하기
-                    webLineWidth = 1F //Web 두께
-                    webColor = ContextCompat.getColor(this@ResultActivity, R.color.lt_gray); //Web Color
-                    webAlpha = 500 //Web Alpha (Inner 와 공통으로 적용됨)
-                    webLineWidthInner = 1F //Web Inner 두께
-                    webColorInner = ContextCompat.getColor(this@ResultActivity, R.color.lt_gray); //Web Inner Color
-                    isRotationEnabled = false //회전 여부
+                        userDataSet.apply {
+                            color = ContextCompat.getColor(this@ResultActivity, R.color.lt_pink);
+                            fillColor = ContextCompat.getColor(this@ResultActivity, R.color.lt_pink);
+                            setDrawFilled(true)
+                            fillAlpha = 180
+                            lineWidth = 0f
+                            label = null
+                            isDrawHighlightCircleEnabled = true
+                            setDrawHighlightIndicators(false)
+                        }
 
-                    xAxis.run {
-                        val arrayList = arrayOf(
-                            defaultUserDataValue[0].y.toInt().toString(),
-                            defaultUserDataValue[1].y.toInt().toString(),
-                            defaultUserDataValue[2].y.toInt().toString(),
-                            defaultUserDataValue[3].y.toInt().toString(),
-                            defaultUserDataValue[4].y.toInt().toString(),
-                            defaultUserDataValue[5].y.toInt().toString(),
-                            defaultUserDataValue[6].y.toInt().toString(),
-                            defaultUserDataValue[7].y.toInt().toString(),
-                            defaultUserDataValue[8].y.toInt().toString()
-                        )
+                        dataRadar.apply {
+                            addDataSet(defaultDataSet)
+                            addDataSet(userDataSet)
+                            setDrawValues(false)
+                        }
 
-                        textSize = 10f //작은 원 안에 라벨 크기
-                        textColor = ContextCompat.getColor(this@ResultActivity, R.color.black); //라벨 Color
-                        xOffset = 0F
-                        yOffset = 0F
-                        position = XAxis.XAxisPosition.TOP
-                        valueFormatter = IAxisValueFormatter { value, _ -> arrayList[value.toInt()] }
+                        chartToday!!.run {
+                            data = dataRadar //데이터 세팅
+                            invalidate()
+
+                            description.isEnabled = false //Description 안보이게 하기
+                            webLineWidth = 1F //Web 두께
+                            webColor = ContextCompat.getColor(this@ResultActivity, R.color.lt_gray); //Web Color
+                            webAlpha = 500 //Web Alpha (Inner 와 공통으로 적용됨)
+                            webLineWidthInner = 1F //Web Inner 두께
+                            webColorInner = ContextCompat.getColor(this@ResultActivity, R.color.lt_gray); //Web Inner Color
+                            isRotationEnabled = false //회전 여부
+
+                            xAxis.run {
+                                val arrayList = arrayOf(
+                                    defaultUserDataValue[0].y.toInt().toString(),
+                                    defaultUserDataValue[1].y.toInt().toString(),
+                                    defaultUserDataValue[2].y.toInt().toString(),
+                                    defaultUserDataValue[3].y.toInt().toString(),
+                                    defaultUserDataValue[4].y.toInt().toString(),
+                                    defaultUserDataValue[5].y.toInt().toString(),
+                                    defaultUserDataValue[6].y.toInt().toString(),
+                                    defaultUserDataValue[7].y.toInt().toString(),
+                                    defaultUserDataValue[8].y.toInt().toString()
+                                )
+
+                                textSize = 10f //작은 원 안에 라벨 크기
+                                textColor = ContextCompat.getColor(this@ResultActivity, R.color.black); //라벨 Color
+                                xOffset = 0F
+                                yOffset = 0F
+                                position = XAxis.XAxisPosition.TOP
+                                valueFormatter = IAxisValueFormatter { value, _ -> arrayList[value.toInt()] }
+                            }
+
+                            yAxis.run {
+                                setLabelCount(2, true)
+                                textSize = 0f
+                                textColor = 0x00000000
+                                axisMinimum = 0f
+                                axisMaximum = 100f
+                                setDrawLabels(false)
+                            }
+                            legend.run {
+                                isEnabled = false
+                            }
+                        }
                     }
-
-                    yAxis.run {
-                        setLabelCount(2, true)
-                        textSize = 0f
-                        textColor = 0x00000000
-                        axisMinimum = 0f
-                        axisMaximum = 100f
-                        setDrawLabels(false)
-                    }
-                    legend.run {
-                        isEnabled = false
-                    }
+                }
+                false -> {
+                    if (chartToday != null)
+                        chartToday!!.clear()
                 }
             }
-            false -> {
-                if (chartToday != null)
-                    chartToday!!.clear()
-            }
+
+            for (i in 0 until btnResultDialogDaily.size)
+                btnResultDialogDaily[i].isClickable = true
+
+            for (i in 0 until btnResultDialogOtherAnalysis.size)
+                btnResultDialogOtherAnalysis[i].isClickable = true
+
+            btnResultDialogClose?.isClickable = true
         }
     }
 
@@ -888,6 +901,14 @@ class ResultActivity : AppCompatActivity(), View.OnTouchListener {
         var otherDataSet: LineDataSet
         var dataLine = LineData()
         CoroutineScope(Main).launch {
+            for (i in 0 until btnResultDialogDaily.size)
+                btnResultDialogDaily[i].isClickable = false
+
+            for (i in 0 until btnResultDialogOtherAnalysis.size)
+                btnResultDialogOtherAnalysis[i].isClickable = false
+
+            btnResultDialogClose?.isClickable = false
+
             when (set) {
                 true -> {
                     if (chartOther != null)
@@ -932,10 +953,6 @@ class ResultActivity : AppCompatActivity(), View.OnTouchListener {
                             addDataSet(otherDataSet)
                             setDrawValues(false)
                         }
-
-                        for (u in 0 until emtDateList.size)
-                            Log.e("emtDateList size", emtDateList[u].toString())
-
                         chartOther!!.run {
                             data = dataLine
                             invalidate()
@@ -1002,6 +1019,14 @@ class ResultActivity : AppCompatActivity(), View.OnTouchListener {
                     }
                 }
             }
+
+            for (i in 0 until btnResultDialogDaily.size)
+                btnResultDialogDaily[i].isClickable = true
+
+            for (i in 0 until btnResultDialogOtherAnalysis.size)
+                btnResultDialogOtherAnalysis[i].isClickable = true
+
+            btnResultDialogClose?.isClickable = true
         }
     }
 
@@ -1028,16 +1053,12 @@ class ResultActivity : AppCompatActivity(), View.OnTouchListener {
         calWeekDay.time = toDayDate!!
         calWeekDay.add(calendar, amount)
 
-        Log.e("calWeekDay", simpleDateFormat!!.format(calWeekDay.time))
-
         for (i in skinResultDB!!.skinResultInterface().getAll().size - 1 downTo 0) {
             var emtDate: Date? = simpleDateFormat?.parse(skinResultDB!!.skinResultInterface().getAll()[i].dateTime)
             var emtDateFormat = SimpleDateFormat("dd/MM")
 
             var calThisDay = Calendar.getInstance()
             calThisDay.time = emtDate!!
-
-            Log.e("calThisDay", simpleDateFormat!!.format(calThisDay.time))
 
             if (calWeekDay < calThisDay) {
                 if (emtDateFormat.format(emtDate) != equalsString) {
@@ -1060,9 +1081,6 @@ class ResultActivity : AppCompatActivity(), View.OnTouchListener {
             if (calWeekDay >= calThisDay)
                 break
         }
-
-        Log.e("size", reverseValuePercentList.size.toString())
-
         var j = 1F
         emtDateList.add("0")
 

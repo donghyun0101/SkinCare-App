@@ -10,6 +10,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="dk_gray">#5D5D5E</color>
     <color name="lt_gray">#F2EEEF</color>
+    <color name="ltdk_gray">#8e8e8f</color>
     <color name="lt_blue">#68D4F9</color>
     <color name="lt_pink">#FC9FF3</color>
     <color name="alert_red">#FD2A35</color>

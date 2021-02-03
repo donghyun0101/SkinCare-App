@@ -442,10 +442,10 @@
             android:id="@+id/btn_result_daily"
             android:layout_width="130dp"
             android:layout_height="30dp"
-            android:background="@drawable/selector_trans_btn"
+            android:background="@drawable/selector_ltpink_result_btn"
             android:fontFamily="@font/jost600semi"
             android:text="@string/text_skinanalysisresult"
-            android:textColor="@drawable/selector_trans_btn_text"
+            android:textColor="@drawable/selector_ltpink_result_btn_text"
             android:textSize="11sp" />
     </RelativeLayout>
 
@@ -460,10 +460,10 @@
             android:id="@+id/btn_result_recommend"
             android:layout_width="wrap_content"
             android:layout_height="30dp"
-            android:background="@drawable/selector_trans_btn"
+            android:background="@drawable/selector_ltpink_result_btn"
             android:fontFamily="@font/jost600semi"
             android:text="@string/page_result_recommend"
-            android:textColor="@drawable/selector_trans_btn_text"
+            android:textColor="@drawable/selector_ltpink_result_btn_text"
             android:textSize="11sp" />
     </RelativeLayout>
 
@@ -479,10 +479,10 @@
             android:id="@+id/btn_result_start_over"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/selector_trans_btn"
+            android:background="@drawable/selector_ltpink_result_btn"
             android:fontFamily="@font/jost600semi"
             android:text="@string/text_startover"
-            android:textColor="@drawable/selector_trans_btn_text"
+            android:textColor="@drawable/selector_ltpink_result_btn_text"
             android:textSize="11sp" />
     </RelativeLayout>
 

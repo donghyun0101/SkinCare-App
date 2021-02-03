@@ -4,7 +4,6 @@ import android.app.Activity
 import android.app.ProgressDialog
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import android.widget.Button
 import android.widget.ImageView
@@ -27,7 +26,6 @@ import okhttp3.MediaType.Companion.toMediaTypeOrNull
 import org.json.JSONObject
 import java.io.File
 import java.util.concurrent.TimeUnit
-
 
 class ImageCheckActivity : AppCompatActivity() {
     private var layoutImgCheck: RelativeLayout? = null
@@ -100,7 +98,9 @@ class ImageCheckActivity : AppCompatActivity() {
 
                         downloadProgress = 10
                         asyncDialog?.progress = downloadProgress
-                        asyncDialog?.setMessage("Server Connected...")
+                        withContext(Main){
+                            asyncDialog?.setMessage("Server Connected...")
+                        }
 
                         request = Request.Builder()
                             //.url("https://partner-test.revieve.com/api/3/analyzeImage/?accept=application/json&Content-Type=multipart/form-data")
@@ -124,7 +124,6 @@ class ImageCheckActivity : AppCompatActivity() {
                         errorScan = true
                     } catch (e: Exception) {
                         errorScan = false
-                        Log.e("response", "Error message : ${e.message}")
                     }
                 }
 
@@ -181,7 +180,6 @@ class ImageCheckActivity : AppCompatActivity() {
                 if(downloadProgress >= 90)
                     asyncDialog?.setMessage("Downloading Skin Analysis and Results...")
             }
-            Log.e("Progress", "progress bytesWritten=$downloadProgress")
         }
     }
 }

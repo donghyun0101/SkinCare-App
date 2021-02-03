@@ -6,13 +6,13 @@
     <group>
         <clip-path android:pathData="M0,0h84v84h-84z" />
         <path
-            android:fillColor="#5D5D5E"
+            android:fillColor="#8e8e8f"
             android:pathData="M37.136,13L22.846,13l-7.143,12.372 7.143,12.372h14.286l7.143,-12.372Z" />
         <path
-            android:fillColor="#5D5D5E"
+            android:fillColor="#8e8e8f"
             android:pathData="M64.741,30.024h-14.264l-7.132,12.353 7.132,12.353h14.264l7.132,-12.353Z" />
         <path
-            android:fillColor="#5D5D5E"
+            android:fillColor="#8e8e8f"
             android:pathData="M36.959,45.258h-14.639l-7.32,12.678 7.32,12.678h14.639l7.32,-12.678Z" />
     </group>
 </vector>

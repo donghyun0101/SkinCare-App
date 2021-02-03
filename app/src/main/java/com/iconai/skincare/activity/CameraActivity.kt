@@ -23,7 +23,6 @@ import java.nio.ByteBuffer
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
 
-
 class CameraActivity : AppCompatActivity() {
     private var viewPreview: androidx.camera.view.PreviewView? = null
     private var btnCameraTake: Button? = null
@@ -60,8 +59,6 @@ class CameraActivity : AppCompatActivity() {
             ImageCapture.OnImageCapturedCallback() {
             override fun onCaptureSuccess(image: ImageProxy) {
                 super.onCaptureSuccess(image)
-                Log.e("imgsize", "${image.width} ${image.height}")
-
                 ApiData.imgFaceBitmap = imageProxyToBitmap(image)
                 ApiData.imgFaceFile = bitmapToFile(this@CameraActivity, ApiData.imgFaceBitmap!!, "skinCare.jpg")
                 startActivity(Intent(this@CameraActivity, ImageCheckActivity::class.java))
@@ -83,7 +80,6 @@ class CameraActivity : AppCompatActivity() {
         val bytes = ByteArray(buffer.remaining())
         buffer.get(bytes)
         val bitmap = BitmapFactory.decodeByteArray(bytes, 0, bytes.size)
-        Log.e("bmp", "${bitmap.width} ${bitmap.height}")
         var bitmapEmt = Bitmap.createBitmap(bitmap, 0, 0, bitmap.width - 3, bitmap.height - 56, inversionImg, false)
 
         return Bitmap.createScaledBitmap(bitmapEmt, 800, 1280, true)
